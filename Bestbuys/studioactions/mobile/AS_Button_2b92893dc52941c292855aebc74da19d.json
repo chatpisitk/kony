@@ -1,0 +1,27 @@
+{
+    "AS_Button_2b92893dc52941c292855aebc74da19d": {
+        "id": "AS_Button_2b92893dc52941c292855aebc74da19d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProductDetail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d47722272e5c41888a62c196cb12885d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___96eb5d3723bd48429d8a60e9ce6687a4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addCart",
+            "display": "addCart",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

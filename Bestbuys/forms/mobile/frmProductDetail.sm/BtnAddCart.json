@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s72f543b43e64d88a3cb6d3910244e26",
+    "_text_": "Add To Cart",
+    "_top_": {
+        "type": "string",
+        "value": "82%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s9c3828a55d44009a2446566a7000c60"
+    },
+    "displaytext": true,
+    "id": "BtnAddCart",
+    "ide_onClick": "AS_Button_2b92893dc52941c292855aebc74da19d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "85107d5b0a7a4b44b58380aef052c42c",
+    "name": "kony.ui.Button",
+    "parent": "flxDetailProducts",
+    "pf": "frmProductDetail",
+    "wType": "Button",
+    "zindex": 1
+}

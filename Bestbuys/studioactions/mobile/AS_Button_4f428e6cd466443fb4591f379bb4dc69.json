@@ -1,0 +1,20 @@
+{
+    "AS_Button_4f428e6cd466443fb4591f379bb4dc69": {
+        "id": "AS_Button_4f428e6cd466443fb4591f379bb4dc69",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_d9d531cb91184871b23cbbf4a1c01e7e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuToggleStore",
+            "display": "menuToggleStore",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

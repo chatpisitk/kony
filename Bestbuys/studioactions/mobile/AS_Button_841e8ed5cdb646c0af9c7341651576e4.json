@@ -1,0 +1,20 @@
+{
+    "AS_Button_841e8ed5cdb646c0af9c7341651576e4": {
+        "id": "AS_Button_841e8ed5cdb646c0af9c7341651576e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ec7a6922f4274b0aa1615aa995d36c43",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuToggle",
+            "display": "menuToggle",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_a71f1b9a610c471ea2f50d2edcf5f77f": {
+        "id": "AS_Button_a71f1b9a610c471ea2f50d2edcf5f77f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_5d7faa51ddcb4cfe898af0cbdf65cb01",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmProductDetail.btnHide.isVisible = false;\nfrmProductDetail.btnShow.isVisible = true;\nfrmProductDetail.segReview.isVisible = false;",
+            "callbackType": null
+        }]
+    }
+}

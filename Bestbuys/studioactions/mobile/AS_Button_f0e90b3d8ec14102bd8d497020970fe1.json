@@ -1,0 +1,17 @@
+{
+    "AS_Button_f0e90b3d8ec14102bd8d497020970fe1": {
+        "id": "AS_Button_f0e90b3d8ec14102bd8d497020970fe1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_6760ca2409da48209b7dc39a89b6d365",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmHome.flxPopupSearch.isVisible = false",
+            "callbackType": null
+        }]
+    }
+}

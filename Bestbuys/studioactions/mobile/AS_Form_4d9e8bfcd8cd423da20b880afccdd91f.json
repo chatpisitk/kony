@@ -1,0 +1,43 @@
+{
+    "AS_Form_4d9e8bfcd8cd423da20b880afccdd91f": {
+        "id": "AS_Form_4d9e8bfcd8cd423da20b880afccdd91f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStoreLocation",
+            "type": "forms",
+            "platform": "",
+            "KUID": "6d0b63228b6f4aab89c83a13b34a4538"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_MAP_LOCATION____1f7a0900e99044c3bbdcb7e998f3e3ff",
+            "type": "SET_MAP_LOCATION",
+            "itemType": "FORM",
+            "itemId": "frmStoreLocation",
+            "widgetId": "Maps",
+            "propertyName": "locationData",
+            "propertyObject": {
+                "lat": 36.209222,
+                "lon": -115.196944,
+                "name": "North Las Vegas Airport",
+                "desc": "2730 Airport Dr, North Las Vegas, NV 89032, United States"
+            },
+            "itemKUID": "6d0b63228b6f4aab89c83a13b34a4538",
+            "widgetKUID": "8fae8c2451804534b786bb9950992a33",
+            "wType": "Map",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__61645bb2dc1a43d5a593f05a8c849122",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmStoreLocation.Maps.widgetDataMapForCallout = {\n  lblMapCalloutCity: \"lblName\",\n  lblMapCalloutAddress: \"lblAddress\",\n  lblMapCalloutHours: \"lblHours\"\n};",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

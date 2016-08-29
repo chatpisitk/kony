@@ -1,0 +1,47 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s68500993f5b4ee98f0e09a6c602eb25",
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblName",
+        "lblPrice",
+        "btnDelete"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "CopyFlexContainer02f75fc28eea24a",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "011eeedae9fa4ee093162ccea8c6c621",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tmpRowCart",
+    "pf": "tmpRowCart",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

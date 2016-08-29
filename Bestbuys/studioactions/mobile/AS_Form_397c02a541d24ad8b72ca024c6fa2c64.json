@@ -1,0 +1,27 @@
+{
+    "AS_Form_397c02a541d24ad8b72ca024c6fa2c64": {
+        "id": "AS_Form_397c02a541d24ad8b72ca024c6fa2c64",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "90ecaf67da764bf7bae7331c1756bd56"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___6686f84ad4024f789e186415c9434517",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCart",
+            "display": "getCart",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

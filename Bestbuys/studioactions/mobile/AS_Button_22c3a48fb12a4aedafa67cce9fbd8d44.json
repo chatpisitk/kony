@@ -1,0 +1,18 @@
+{
+    "AS_Button_22c3a48fb12a4aedafa67cce9fbd8d44": {
+        "id": "AS_Button_22c3a48fb12a4aedafa67cce9fbd8d44",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ac3fef4ad4284b47868621044b471695",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCart.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

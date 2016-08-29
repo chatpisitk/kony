@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_78d8c16687004531b82d520274f9f4ad": {
+        "id": "AS_FlexContainer_78d8c16687004531b82d520274f9f4ad",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "FBox0218591fb26474d",
+            "type": "templates",
+            "platform": "",
+            "KUID": "8b0d25c89b654b94bb28b250a2b25b8d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3af9f0ff26424cd2abbf68bb4a4fd7c2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmHome.lblBreadcrumbs.text!=\"Home\"){\n  frmProduct.show();\n  getProduct.call(this);\n} else{\n  getSubCategories.call(this);\n  frmHome.btnBack.isVisible = true;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

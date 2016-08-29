@@ -1,0 +1,20 @@
+{
+    "AS_ListBox_e7535f39d7114d6f91532042e800aee9": {
+        "id": "AS_ListBox_e7535f39d7114d6f91532042e800aee9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onSelection_745c0b898d344898ac4c060bd31f94ed",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectedImg",
+            "display": "selectedImg",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Segment_2528ec6898994e3a9a7fb732925ceec7": {
+        "id": "AS_Segment_2528ec6898994e3a9a7fb732925ceec7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8c8fa32e932c493dba97f7a1f6b0bed6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__1afccd1d6fe04946aca248eacc670d35",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmHome.lblBreadcrumbs.text!=\"Home\"){\n//   getProduct();\n  frmProduct.show();\n  getProduct.call(this);\n\n} else{\n  getSubCategories.call(this);\n  frmHome.btnBack.isVisible = true;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

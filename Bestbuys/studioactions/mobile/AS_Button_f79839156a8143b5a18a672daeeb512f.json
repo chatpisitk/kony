@@ -1,0 +1,24 @@
+{
+    "AS_Button_f79839156a8143b5a18a672daeeb512f": {
+        "id": "AS_Button_f79839156a8143b5a18a672daeeb512f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProduct",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e398d0e4897842ca80dcbbc627ad3e05"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e7ffdedab1394802a9e751dc639e319b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmProduct.lblValue.text = \"All\";\n// frmProduct.btnBack.isVisible = false;\n// frmProduct.segList.isVisible = true;\nfrmHome.show();\nfrmProduct.destroy();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

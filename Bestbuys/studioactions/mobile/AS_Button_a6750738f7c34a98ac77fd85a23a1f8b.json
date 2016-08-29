@@ -1,0 +1,18 @@
+{
+    "AS_Button_a6750738f7c34a98ac77fd85a23a1f8b": {
+        "id": "AS_Button_a6750738f7c34a98ac77fd85a23a1f8b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__1c781895736a419595c79587be3f2456",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmProductDetail.show();\nfrmProductImage.destroy();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

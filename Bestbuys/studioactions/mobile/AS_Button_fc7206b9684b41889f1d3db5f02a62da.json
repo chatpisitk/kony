@@ -1,0 +1,20 @@
+{
+    "AS_Button_fc7206b9684b41889f1d3db5f02a62da": {
+        "id": "AS_Button_fc7206b9684b41889f1d3db5f02a62da",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_358e6e35eabf42b798daeb7b01561e46",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuToggleCart",
+            "display": "menuToggleCart",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

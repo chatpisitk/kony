@@ -1,0 +1,33 @@
+{
+    "AS_Segment_68e34dcfac4c45408a3c3f5f71a2b9dd": {
+        "id": "AS_Segment_68e34dcfac4c45408a3c3f5f71a2b9dd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmCart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "90ecaf67da764bf7bae7331c1756bd56"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___59945840c6084740bc989a2ffa90bf35",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCartItem",
+            "display": "getCartItem",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

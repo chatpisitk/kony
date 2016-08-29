@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa880808a6424fd2b0845556fa73350e",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "12%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "5%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s9c3828a55d44009a2446566a7000c60"
+    },
+    "displaytext": true,
+    "id": "btnHamburger",
+    "ide_onClick": "AS_Button_0e6f858c333f420d9646f33e05f7c27f",
+    "info": null,
+    "isvisible": true,
+    "kuid": "27bbe8f57980475ba5f6372074a7dd47",
+    "name": "kony.ui.Button",
+    "parent": "flxbar",
+    "pf": "frmProductSearch",
+    "wType": "Button"
+}

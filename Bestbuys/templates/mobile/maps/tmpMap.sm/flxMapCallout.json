@@ -1,0 +1,53 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s563a327ff034a678f75958dc20702a5",
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "imgCallout",
+        "lblMapCalloutName",
+        "lblAddressText",
+        "lblMapCalloutAddress",
+        "lblHourText",
+        "lblMapCalloutHours"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxMapCallout",
+    "info": null,
+    "isvisible": true,
+    "kuid": "8a4f1c83bdd7430fb90b4dc83d123d27",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tmpMap",
+    "pf": "tmpMap",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 5
+}

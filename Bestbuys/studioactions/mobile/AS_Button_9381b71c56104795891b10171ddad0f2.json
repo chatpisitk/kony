@@ -1,0 +1,24 @@
+{
+    "AS_Button_9381b71c56104795891b10171ddad0f2": {
+        "id": "AS_Button_9381b71c56104795891b10171ddad0f2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "90ecaf67da764bf7bae7331c1756bd56"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e469dc3bc60f420593984c8982ebfa4e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmCart.flxPopupSearch.isVisible == false){\n  frmCart.flxPopupSearch.isVisible = true\n}else{\n  frmCart.flxPopupSearch.isVisible = false\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

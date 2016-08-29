@@ -1,0 +1,24 @@
+{
+    "AS_Button_0dd74ad6c3374658b91ca7dc19727743": {
+        "id": "AS_Button_0dd74ad6c3374658b91ca7dc19727743",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8c8fa32e932c493dba97f7a1f6b0bed6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__670b7ce8136d475d97aaa47e18c73fde",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmHome.flxPopupSearch.isVisible == false){\n  frmHome.flxPopupSearch.isVisible = true\n  frmHome.segList.isVisible = false\n  frmStoreLocation.flxMain.isVisible = false\n}else{\n  frmHome.flxPopupSearch.isVisible = false\n  frmHome.segList.isVisible = true\n  frmStoreLocation.flxMain.isVisible = true\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

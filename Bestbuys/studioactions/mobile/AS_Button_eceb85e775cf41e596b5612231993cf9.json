@@ -1,0 +1,27 @@
+{
+    "AS_Button_eceb85e775cf41e596b5612231993cf9": {
+        "id": "AS_Button_eceb85e775cf41e596b5612231993cf9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpProductDetail",
+            "type": "templates",
+            "platform": "",
+            "KUID": "be66de278d284ebaab5df03fec6ce4fb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f90324bd99814b7b8df1e1e1593f5904",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmProductImage.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

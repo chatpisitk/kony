@@ -1,0 +1,17 @@
+{
+    "AS_Button_58e9fc71a21f4e5997f8d268259941fc": {
+        "id": "AS_Button_58e9fc71a21f4e5997f8d268259941fc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_22ea908cbca44b61aefcf9aa495e6b3d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmProductSearch.lblValue.text = \"All\";\n// frmProduct.btnBack.isVisible = false;\n// frmProduct.segList.isVisible = true;\nfrmHome.segList.isVisible = true\nfrmHome.show();\nfrmProductSearch.destroy();",
+            "callbackType": null
+        }]
+    }
+}

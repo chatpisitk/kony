@@ -1,0 +1,17 @@
+{
+    "AS_Button_404dd80bb6fe45daa53e18b302cd327e": {
+        "id": "AS_Button_404dd80bb6fe45daa53e18b302cd327e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_2e72f284db3d4a3084591696bc43e8f1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmHome.destroy();\nfrmHome.show();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_17d5c6a659684557855ce1f78a4a2e75": {
+        "id": "AS_Button_17d5c6a659684557855ce1f78a4a2e75",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8c8fa32e932c493dba97f7a1f6b0bed6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e47e7c4c487e4e44a42359b0980238f2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmHome.lblBreadcrumbs.text = \"Home\";\nfrmHome.btnBack.isVisible = false;\nfrmHome.segList.isVisible = true;\nfrmHome.destroy();\nfrmHome.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

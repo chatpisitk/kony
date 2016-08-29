@@ -1,0 +1,20 @@
+{
+    "AS_Button_0e6f858c333f420d9646f33e05f7c27f": {
+        "id": "AS_Button_0e6f858c333f420d9646f33e05f7c27f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_e564a5b91946492b8f46157d06e0c7f6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuToggleProductList",
+            "display": "menuToggleProductList",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

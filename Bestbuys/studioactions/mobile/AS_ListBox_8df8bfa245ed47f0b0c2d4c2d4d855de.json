@@ -1,0 +1,20 @@
+{
+    "AS_ListBox_8df8bfa245ed47f0b0c2d4c2d4d855de": {
+        "id": "AS_ListBox_8df8bfa245ed47f0b0c2d4c2d4d855de",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onSelection_c4a6889b759d446e955d1931ea4e3c5d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectedPage",
+            "display": "selectedPage",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "AS_ListBox_dc222d4493234971b29a3ff76875e7c5": {
+        "id": "AS_ListBox_dc222d4493234971b29a3ff76875e7c5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProductSearch",
+            "type": "forms",
+            "platform": "",
+            "KUID": "9b4802b9ccc043b1ab973877670c43eb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___19a4a00a7d7444ba88246c160800c118",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectedPage",
+            "display": "selectedPage",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

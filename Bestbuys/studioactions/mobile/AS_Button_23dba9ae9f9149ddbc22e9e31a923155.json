@@ -1,0 +1,24 @@
+{
+    "AS_Button_23dba9ae9f9149ddbc22e9e31a923155": {
+        "id": "AS_Button_23dba9ae9f9149ddbc22e9e31a923155",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProductDetail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d47722272e5c41888a62c196cb12885d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3c115234480a4ac8b6b523d92c16c9e7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmProductDetail.btnHide.isVisible = true;\nfrmProductDetail.btnShow.isVisible = false;\nfrmProductDetail.segReview.isVisible = true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

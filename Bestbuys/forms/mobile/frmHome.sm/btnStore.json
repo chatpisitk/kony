@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1ac24fbe2914c6e9a5251e75ac6f7e1",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "315dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s9c3828a55d44009a2446566a7000c60"
+    },
+    "displaytext": true,
+    "id": "btnStore",
+    "ide_onClick": "AS_Button_f757f413615e4cb2be7e12f365796732",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f664cac0614e47a6a9519192db028d2f",
+    "name": "kony.ui.Button",
+    "parent": "flxBtnTwo",
+    "pf": "frmHome",
+    "wType": "Button",
+    "zindex": 1
+}

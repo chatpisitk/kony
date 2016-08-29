@@ -1,0 +1,102 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s02f3d9dfc3b456bb3eb45808162f57f",
+    "_top_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "android": {
+        "psp": {
+            "placeholderSkin": "s7c9e17b415b4d1baee0ec9dd0a2f8fd"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmHome",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "groupcells": false,
+    "id": "lstFilter",
+    "info": null,
+    "iphone": {
+        "viewType": 3
+    },
+    "isvisible": true,
+    "kuid": "4e0133f8fd224d74ba05396d17e8e861",
+    "masterdata": [
+        [
+            "keyDefalut",
+            "< Select a Value >"
+        ],
+        [
+            "onSale",
+            "On Sale"
+        ],
+        [
+            "notOnsale",
+            "Not On Sale"
+        ],
+        [
+            "new",
+            "New "
+        ],
+        [
+            "notNew",
+            "Not New"
+        ],
+        [
+            "freeShipping",
+            "Free Shipping"
+        ],
+        [
+            "nofreeShipping",
+            "No Free Shipping"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxSearch",
+    "pf": "frmHome",
+    "selectedkey": "keyDefalut",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "keyDefalut",
+        "< Select a Value >"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Button_8a34830e191c42f58bb113a80fc79f87": {
+        "id": "AS_Button_8a34830e191c42f58bb113a80fc79f87",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStoreLocation",
+            "type": "forms",
+            "platform": "",
+            "KUID": "6d0b63228b6f4aab89c83a13b34a4538"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___7a9473c4289740aa9458ff7a8265382c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "findLocation",
+            "display": "findLocation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}
