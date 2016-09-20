@@ -28,12 +28,12 @@ function menuToggleStore()
 		menuLeftPos="85%";
   kony.print("\n--in menu toggle-->"+menuLeftPos);
   frmStoreLocation.flxMenu.isVisible = true;
-   frmStoreLocation.flxMain.animate(
-			  kony.ui.createAnimation({100:{left:menuLeftPos,"stepConfig":{}}}),
-			  {delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},
-			  {animationEnd: function() {
-			  } 
-		});
+  frmStoreLocation.flxMain.animate(
+    kony.ui.createAnimation({100:{left:menuLeftPos,"stepConfig":{}}}),
+    {delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},
+    {animationEnd: function() {
+    } 
+    });
 }
 
 function menuToggleDetails()
@@ -47,12 +47,12 @@ function menuToggleDetails()
 		menuLeftPos="85%";
   kony.print("\n--in menu toggle-->"+menuLeftPos);
   frmProductDetail.flxMenu.isVisible = true;
-   frmProductDetail.flxMain.animate(
-			  kony.ui.createAnimation({100:{left:menuLeftPos,"stepConfig":{}}}),
-			  {delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},
-			  {animationEnd: function() {
-			  } 
-		});
+  frmProductDetail.flxMain.animate(
+    kony.ui.createAnimation({100:{left:menuLeftPos,"stepConfig":{}}}),
+    {delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},
+    {animationEnd: function() {
+    } 
+    });
 }
 
 function menuToggleCart()
@@ -76,7 +76,7 @@ function menuToggleCart()
 
 function menuToggleProductList()
 {
-	
+
 	if(typeof menuLeftPos==='undefined')
 		menuLeftPos="85%";
 	else if(menuLeftPos==="85%")
@@ -85,12 +85,12 @@ function menuToggleProductList()
 		menuLeftPos="85%";
   kony.print("\n--in menu toggle-->"+menuLeftPos);
   frmProduct.flxMenu.isVisible = true;
-   frmProduct.flxMain.animate(
-			  kony.ui.createAnimation({100:{left:menuLeftPos,"stepConfig":{}}}),
-			  {delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},
-			  {animationEnd: function() {
-			  } 
-		});
+  frmProduct.flxMain.animate(
+    kony.ui.createAnimation({100:{left:menuLeftPos,"stepConfig":{}}}),
+    {delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},
+    {animationEnd: function() {
+    } 
+    });
 }
 
 function menuToggleProductImage()

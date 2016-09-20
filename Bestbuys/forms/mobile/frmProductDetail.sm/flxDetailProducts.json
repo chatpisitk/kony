@@ -1,6 +1,6 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
+    "__parentReadjusting__": true,
     "_height_": {
         "type": "string",
         "value": "60%"

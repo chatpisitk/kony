@@ -45,7 +45,7 @@
     "enablescrolling": true,
     "id": "flxMenu",
     "info": null,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "b93bbc9f18d348a4a20c7c7b2ae8ce97",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

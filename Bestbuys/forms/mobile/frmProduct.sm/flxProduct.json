@@ -1,6 +1,6 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
+    "__parentReadjusting__": true,
     "_height_": {
         "type": "string",
         "value": "580dp"
@@ -43,7 +43,7 @@
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlexContainer040ca78b215b846",
+    "id": "flxProduct",
     "info": null,
     "isvisible": true,
     "kuid": "ab7cab3c11ac4db1926dbc1366b6bf76",

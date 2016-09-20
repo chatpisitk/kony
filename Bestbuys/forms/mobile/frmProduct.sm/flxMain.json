@@ -1,6 +1,6 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
+    "__parentReadjusting__": true,
     "_height_": {
         "type": "string",
         "value": "523dp"
@@ -51,7 +51,7 @@
     "kuid": "e09425f450d64dab82cbe763f898f8e6",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer040ca78b215b846",
+    "parent": "flxProduct",
     "pf": "frmProduct",
     "snapgridsize": 10,
     "snaptogrid": true,

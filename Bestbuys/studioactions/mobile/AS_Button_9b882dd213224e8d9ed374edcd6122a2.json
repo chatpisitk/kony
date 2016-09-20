@@ -26,7 +26,7 @@
         }, {
             "id": "ADD_SNIPPET__e46c8875073248ae9bbe23df7b6602e4",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "frmCart.destroy();",
+            "codeSnippet": "frmCart.flxMenu.isVisible = false;\nfrmCart.destroy();",
             "parentId": null,
             "callbackType": null
         }]

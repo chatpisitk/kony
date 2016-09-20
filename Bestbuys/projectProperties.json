@@ -20,14 +20,13 @@
     "isA11yConfigEnabled": false,
     "wap_android480_fontsize": "12",
     "wap_spawindowstab_fontsize": "12",
-    "wap_winphone320_fontsize": "12",
     "defaulttheme": "defaultTheme",
+    "wap_winphone320_fontsize": "12",
     "watchos_longlooknotificationicon_38": "",
     "watchos_notificationcentericon_42": "",
     "enableactionbar": false,
     "appmenu": {
         "focusSkin": "",
-        "osVersion": "iOS7",
         "tablet": {
             "data": [
                 {
@@ -36,13 +35,13 @@
                         "default": "option1.png"
                     },
                     "title": "Item 1",
-                    "android": {
-                        "showAsFlag": 0
-                    },
-                    "kuid": "90108bb4bd234509b1808038d8b726be",
                     "windows8": {
                         "position": "BOTTOM_LEFT",
                         "appBarButtonStyle": "No Style"
+                    },
+                    "kuid": "90108bb4bd234509b1808038d8b726be",
+                    "android": {
+                        "showAsFlag": 0
                     }
                 },
                 {
@@ -51,13 +50,13 @@
                         "default": "option2.png"
                     },
                     "title": "Item 2",
-                    "android": {
-                        "showAsFlag": 0
-                    },
-                    "kuid": "92f89090c85e43aa934eaace8804100d",
                     "windows8": {
                         "position": "BOTTOM_LEFT",
                         "appBarButtonStyle": "No Style"
+                    },
+                    "kuid": "92f89090c85e43aa934eaace8804100d",
+                    "android": {
+                        "showAsFlag": 0
                     }
                 },
                 {
@@ -66,13 +65,13 @@
                         "default": "option3.png"
                     },
                     "title": "Item 3",
-                    "android": {
-                        "showAsFlag": 0
-                    },
-                    "kuid": "9ad53e5e971041bdb7673ae1b19b5765",
                     "windows8": {
                         "position": "BOTTOM_LEFT",
                         "appBarButtonStyle": "No Style"
+                    },
+                    "kuid": "9ad53e5e971041bdb7673ae1b19b5765",
+                    "android": {
+                        "showAsFlag": 0
                     }
                 },
                 {
@@ -81,19 +80,24 @@
                         "default": "option4.png"
                     },
                     "title": "Item 4",
-                    "android": {
-                        "showAsFlag": 0
-                    },
-                    "kuid": "b7bdb2a7817d4b5abdf8659ff89e3211",
                     "windows8": {
                         "position": "BOTTOM_LEFT",
                         "appBarButtonStyle": "No Style"
+                    },
+                    "kuid": "b7bdb2a7817d4b5abdf8659ff89e3211",
+                    "android": {
+                        "showAsFlag": 0
                     }
                 }
             ]
         },
+        "osVersion": "iOS7",
         "wType": "Appmenu",
         "focusskin": "",
+        "context": {
+            "platform": "iphone",
+            "channel": "mobile"
+        },
         "osPlatform": "",
         "desktop": {
             "data": [
@@ -134,10 +138,6 @@
         "skin": "",
         "mobile": {
             "data": []
-        },
-        "context": {
-            "platform": "iphone",
-            "channel": "mobile"
         }
     },
     "wap_android360_fontsize": "12",
@@ -160,24 +160,25 @@
     "wap_android400_fontsize": "12",
     "wap_ip_fontsize": "12",
     "watchos_shortlooknotificationicon_38": "",
-    "appidkey": "Bestbuys",
     "currentgaversion": "7.0.0",
+    "appidkey": "Bestbuys",
     "mwhttpsportkey": "",
     "vendornamekey": "KonyLabs",
+    "konyVizVersion": "7.1.0",
     "mfappguid": {
         "a1cdd6c9-1721-4c69-8799-0c5c0cfa348a": "a3f7990f-1f2d-4892-8a70-28a772161b91",
         "fcfadf45-8665-40bf-b164-ed3cc1d2fdde": "c4ce5511-47d0-44b1-9258-b2ad59659d0b",
         "4ef8588c-c2a1-47b8-a76b-edad3f53439b": "35f30900-acd2-495c-94d7-b44ea6e757fa",
-        "7bca956d-c7cc-4163-90ac-d3cbbe030fe8": "0eb133c0-45b7-4059-907a-ccba4396530e"
+        "7bca956d-c7cc-4163-90ac-d3cbbe030fe8": "0eb133c0-45b7-4059-907a-ccba4396530e",
+        "e10ac424-5ac6-45e1-bf42-8da7ec5d5518": "8b134f75-9f68-4cb7-be44-421169c0c39e"
     },
-    "konyVizVersion": "7.1.0",
     "appnamekey": "Bestbuys",
     "APPLICATION_THEME": "default",
-    "wap_android440_fontsize": "12",
     "wap_spaipad_fontsize": "12",
+    "wap_android440_fontsize": "12",
     "wap_spaandroidtabhdpi_fontsize": "12",
     "nativeContainerProperties": {
-        "isModified": false,
+        "isModified": true,
         "isEnableJSContainer": false,
         "isEnableJSContainerAndroid": false,
         "isEnableJSContaineriOS": false

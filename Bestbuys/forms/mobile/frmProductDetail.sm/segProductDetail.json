@@ -1,7 +1,7 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
+    "__parentReadjusting__": true,
     "_data_": [
         {
             "BtnMore": {

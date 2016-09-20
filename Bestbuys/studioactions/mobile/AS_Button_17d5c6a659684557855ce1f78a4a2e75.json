@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__e47e7c4c487e4e44a42359b0980238f2",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "frmHome.lblBreadcrumbs.text = \"Home\";\nfrmHome.btnBack.isVisible = false;\nfrmHome.segList.isVisible = true;\nfrmHome.destroy();\nfrmHome.show();",
+            "codeSnippet": "frmHome.lblBreadcrumbs.text = \"Home\";\nfrmHome.btnBack.isVisible = false;\nfrmHome.segList.isVisible = true;\nfrmHome.flxMenu.isVisible = false;\nfrmHome.destroy();\nfrmHome.show();",
             "parentId": null,
             "callbackType": null
         }]
