@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__836cd3c419964adebd39157a8e7c99cd",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "frmProductDetail.btnHide.isVisible = false;\nfrmProductDetail.btnShow.isVisible = true;\nfrmProductDetail.segReview.isVisible = false;",
+            "codeSnippet": "frmProductDetail.btnHide.isVisible = false;\n// frmProductDetail.segReview.isVisible = false;\nfrmProductDetail.btnShow.isVisible = true;\n\nfrmProductDetail.segReview.animate(\nkony.ui.createAnimation({100:{\"centerY\":\"130%\",\"stepConfig\":{}}}),\n  {delay:0.1,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},\n  {animationEnd: function() {\n  } \n});",
             "parentId": null,
             "callbackType": null
         }]

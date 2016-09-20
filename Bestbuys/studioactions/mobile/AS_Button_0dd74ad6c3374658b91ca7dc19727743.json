@@ -16,18 +16,9 @@
         "actions": [{
             "id": "ADD_SNIPPET__670b7ce8136d475d97aaa47e18c73fde",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "if(frmHome.flxPopupSearch.isVisible == false){\n  frmHome.flxPopupSearch.isVisible = true\n  frmHome.segList.isVisible = false\n  frmStoreLocation.flxMain.isVisible = false\n}else{\n  frmHome.flxPopupSearch.isVisible = false\n  frmHome.segList.isVisible = true\n  frmStoreLocation.flxMain.isVisible = true\n}\nif(frmHome.flxMenu.isVisible == true){\n  frmHome.flxMenu.isVisible = false\n}\n",
+            "codeSnippet": "if(frmHome.flxPopupSearch.isVisible == false){\n  frmHome.flxPopupSearch.isVisible = true\n  frmHome.segList.isVisible = false\n  frmStoreLocation.flxMain.isVisible = false\n}else{\n  frmHome.flxPopupSearch.isVisible = false\n  frmHome.segList.isVisible = true\n  frmStoreLocation.flxMain.isVisible = true\n}\nif(frmHome.flxMenu.isVisible == true){\n  if(typeof menuLeftPos==='undefined')\n\t\tmenuLeftPos=\"85%\";\n\telse if(menuLeftPos===\"85%\")\n\t\tmenuLeftPos=\"0%\";\n// \telse if(menuLeftPos===\"0%\")\n// \t\tmenuLeftPos=\"85%\";\n  kony.print(\"\\n--in menu toggle-->\"+menuLeftPos);\n  frmHome.flxMain.animate(\n    kony.ui.createAnimation({100:{left:menuLeftPos,\"stepConfig\":{}}}),\n    {delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},\n    {animationEnd: function() {\n    } \n    });\n  frmHome.flxMenu.isVisible = false\n}\n",
             "parentId": null,
             "callbackType": null
-        }, {
-            "id": "INVOKE_FUNCTION___373bacd0c23548f982a8139a94174756",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "menuToggle",
-            "display": "menuToggle",
-            "inputparams": [],
-            "parentId": null,
-            "callbackType": null,
-            "disabled": null
         }]
     }
 }

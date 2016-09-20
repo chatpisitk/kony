@@ -60,7 +60,7 @@
     },
     "centery": {
         "type": "string",
-        "value": "54%"
+        "value": "130%"
     },
     "containerweight": 100,
     "counter": "00",
@@ -84,7 +84,7 @@
             "indicator": "rowselect"
         }
     },
-    "isvisible": false,
+    "isvisible": true,
     "kuid": "b1f1d0f10a9d46d3868156bcdbd6921c",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
