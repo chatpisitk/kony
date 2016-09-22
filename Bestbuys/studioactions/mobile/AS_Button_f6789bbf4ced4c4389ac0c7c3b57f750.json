@@ -17,6 +17,12 @@
             "parentId": "",
             "callbackType": null,
             "enableMappingEditor": true
+        }, {
+            "id": "ADD_SNIPPET__a83e63abd1cb49cc9d9936ce6de67ae3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmProductImage.flxMenu.isVisible = false",
+            "parentId": null,
+            "callbackType": null
         }]
     }
 }

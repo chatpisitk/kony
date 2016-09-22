@@ -39,7 +39,7 @@
         "focusSkin": "s9c3828a55d44009a2446566a7000c60"
     },
     "displaytext": true,
-    "id": "CopybtnStore06a963db0302f48",
+    "id": "btnStore",
     "ide_onClick": "AS_Button_f6789bbf4ced4c4389ac0c7c3b57f750",
     "info": null,
     "isvisible": true,

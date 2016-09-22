@@ -11,11 +11,18 @@
         }],
         "language": "js",
         "actions": [{
+            "id": "ADD_SNIPPET__4f381819c7574628a4bc87a511edf3fc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxRowCart.animate(\nkony.ui.createAnimation({100:{\"centerX\":\"-50%\",\"stepConfig\":{}}}),\n  {delay:0.1,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},\n  {animationEnd: function() {\n  } \n});",
+            "parentId": null,
+            "callbackType": null
+        }, {
             "id": "INVOKE_FUNCTION__ide_onClick_571e5949684143c78f618993d65d82fe",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "deleteItem",
             "display": "deleteItem",
             "inputparams": [],
+            "parentId": null,
             "callbackType": null,
             "disabled": null
         }]

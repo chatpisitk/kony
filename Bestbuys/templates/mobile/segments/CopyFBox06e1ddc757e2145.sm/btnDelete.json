@@ -4,11 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "60%"
     },
     "_margin_": [
         6,
@@ -22,31 +18,35 @@
         0,
         0
     ],
-    "_skin_": "sad937d8285749d9a484a2ea9115ec69",
+    "_skin_": "saa5511565cc41f8a5e6a8abe107e005",
     "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "12%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "90%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s9c3828a55d44009a2446566a7000c60"
-    },
     "displaytext": true,
-    "id": "btnCart",
-    "ide_onClick": "AS_Button_c005e7af8ff24389a9b48173359bf693",
+    "focusskin": "s9c3828a55d44009a2446566a7000c60",
+    "id": "btnDelete",
+    "ide_onClick": "AS_Button_3e0849e5dabb40b3abecf693f94f7745",
     "info": null,
+    "isSegmentChild": true,
     "isvisible": true,
-    "kuid": "4d084979d2a34be380af3574d2dca573",
+    "kuid": "81b0b07b104a4c3cb9d93e08504afd9d",
     "name": "kony.ui.Button",
-    "parent": "flxBtnThree",
-    "pf": "frmProductSearch",
+    "parent": "flxRowCart",
+    "pf": "CopyFBox06e1ddc757e2145",
     "wType": "Button",
     "zindex": 1
 }

@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_left_": {
-        "type": "string",
-        "value": "1dp"
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         6,
@@ -25,12 +25,12 @@
     "_skin_": "s6bdb9f7c3f3419591bb1dee039494ee",
     "_text_": "",
     "_top_": {
-        "type": "string",
-        "value": "-1dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
-        "value": "315dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "containerweight": 100,

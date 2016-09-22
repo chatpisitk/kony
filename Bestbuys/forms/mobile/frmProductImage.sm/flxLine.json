@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "3dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "26dp"
     },
     "_margin_": [
         0,
@@ -23,14 +23,14 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s5f87dc929e24e8fb39c5b6dd376ca6c",
+    "_skin_": "sa755861e2f0496dabd3fd8ab124d565",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "47dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "84.04%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -39,17 +39,17 @@
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "lineHeader",
+    "id": "flxLine",
     "info": null,
     "isvisible": true,
-    "kuid": "1b1f144e69464d8b96ba24019837a1c3",
+    "kuid": "cdbc8f733862440694c7b855bd8c7e3d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxCart",
-    "pf": "frmCart",
+    "parent": "flxBtnOne",
+    "pf": "frmProductImage",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 4
+    "zindex": 3
 }

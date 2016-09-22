@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "sd2bfde90757450d96d9fe7ceed76f82",
-    "_text_": "STORE",
+    "_text_": "CART",
     "_top_": {
         "type": "string",
-        "value": "14dp"
+        "value": "12dp"
     },
     "_width_": {
         "type": "ref",
@@ -40,13 +40,9 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblStore",
+    "id": "lblCart",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,10 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "3374bc0c446e4a3cbe744c361b9bf2fc",
+    "kuid": "1b1927de541e4767b176b9d54b976fe6",
     "name": "kony.ui.Label",
-    "parent": "flxBtnTwo",
-    "pf": "frmStoreLocation",
+    "parent": "flxBtnThree",
+    "pf": "frmProductImage",
     "tooltip": "",
     "wType": "Label",
     "zindex": 3

@@ -9,7 +9,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "26dp"
+        "value": "25dp"
     },
     "_margin_": [
         0,
@@ -24,10 +24,10 @@
         0
     ],
     "_skin_": "sb76bdef80cd44ab932ef2a61ef1944b",
-    "_src_": "appmenuhome.png",
+    "_src_": "appmenustore.png",
     "_top_": {
         "type": "string",
-        "value": "4dp"
+        "value": "6dp"
     },
     "_width_": {
         "type": "string",
@@ -38,17 +38,16 @@
     "context": {
         "channel": "mobile",
         "formID": "frmProductImage",
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "CopyimgMenuHome014f96276b6ce4d",
+    "id": "imgMenuStore",
     "imagescalemode": 1,
     "info": null,
     "isvisible": true,
-    "kuid": "5f452b4f709f43d1a3926646f4636cfc",
+    "kuid": "30a6b029b54a41a9bf3702543c088025",
     "name": "kony.ui.Image2",
-    "parent": "flxBtnOne",
+    "parent": "flxBtnTwo",
     "pf": "frmProductImage",
     "srcType": 1,
     "wType": "Image",

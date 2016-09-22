@@ -26,7 +26,7 @@
         }, {
             "id": "ADD_SNIPPET__e46c8875073248ae9bbe23df7b6602e4",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "frmCart.flxMenu.isVisible = false;\nfrmCart.destroy();",
+            "codeSnippet": "frmCart.flxMenu.isVisible = false;\nfrmCart.destroy();\n\n// if(typeof menuLeftPos==='undefined')\n// \t\tmenuLeftPos=\"85%\";\n// \telse if(menuLeftPos===\"85%\")\n// \t\tmenuLeftPos=\"0%\";\n// \telse if(menuLeftPos===\"0%\")\n\t\tmenuLeftPos=\"85%\";\n  kony.print(\"\\n--in menu toggle-->\"+menuLeftPos);\n  frmCart.flxMenu.isVisible = true;\n  frmCart.flxMain.animate(\n    kony.ui.createAnimation({100:{left:menuLeftPos,\"stepConfig\":{}}}),\n    {delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},\n    {animationEnd: function() {\n    } \n    });",
             "parentId": null,
             "callbackType": null
         }]

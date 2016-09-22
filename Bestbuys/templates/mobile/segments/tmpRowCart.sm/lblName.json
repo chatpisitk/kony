@@ -63,7 +63,7 @@
     "kuid": "bcb5d8b7e8894ea69b56208b67aa850e",
     "name": "kony.ui.Label",
     "paddinginpixel": false,
-    "parent": "CopyFlexContainer02f75fc28eea24a",
+    "parent": "flxRowCart",
     "pf": "tmpRowCart",
     "tooltip": "",
     "wType": "Label"

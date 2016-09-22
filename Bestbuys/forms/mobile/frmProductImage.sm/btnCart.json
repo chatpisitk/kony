@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "1dp"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s6bdb9f7c3f3419591bb1dee039494ee",
+    "_skin_": "sad937d8285749d9a484a2ea9115ec69",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "-1dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -39,13 +39,14 @@
         "focusSkin": "s9c3828a55d44009a2446566a7000c60"
     },
     "displaytext": true,
-    "id": "CopybtnHome0bd0a56cd0f8743",
-    "ide_onClick": "AS_Button_32471b44f26c4a9f9f167eaf37edb606",
+    "id": "btnCart",
+    "ide_onClick": "AS_Button_1cdcb0591c2e4013a6fce23d34d81787",
     "info": null,
     "isvisible": true,
-    "kuid": "da0eaf69204941c3b09ef17608eebd15",
+    "kuid": "7e08e5cfa7224ba39b7efd32505bdbf6",
     "name": "kony.ui.Button",
-    "parent": "flxBtnOne",
+    "parent": "flxBtnThree",
     "pf": "frmProductImage",
-    "wType": "Button"
+    "wType": "Button",
+    "zindex": 1
 }

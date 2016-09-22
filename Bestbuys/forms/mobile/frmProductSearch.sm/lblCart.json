@@ -24,10 +24,6 @@
     ],
     "_skin_": "sd2bfde90757450d96d9fe7ceed76f82",
     "_text_": "CART",
-    "_top_": {
-        "type": "string",
-        "value": "12dp"
-    },
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -40,6 +36,10 @@
         }
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
     "id": "lblCart",

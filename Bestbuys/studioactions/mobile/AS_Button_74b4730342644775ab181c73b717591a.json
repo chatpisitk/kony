@@ -17,6 +17,21 @@
             "parentId": "",
             "callbackType": null,
             "enableMappingEditor": true
+        }, {
+            "id": "ADD_SNIPPET__b1dbf6b8739f43d7a7fb0f49f9388b40",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCart.flxMenu.isVisible = false",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___13cb1547eb294a82a21e7c6c5720e6d1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuToggleCart",
+            "display": "menuToggleCart",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
         }]
     }
 }

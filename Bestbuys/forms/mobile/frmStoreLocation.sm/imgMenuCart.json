@@ -5,11 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "37dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "24dp"
+        "value": "80%"
     },
     "_margin_": [
         0,
@@ -25,15 +21,19 @@
     ],
     "_skin_": "sb76bdef80cd44ab932ef2a61ef1944b",
     "_src_": "appmenucart.png",
-    "_top_": {
-        "type": "string",
-        "value": "3dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "37dp"
+        "value": "13%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "13%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "context": {
         "channel": "mobile",

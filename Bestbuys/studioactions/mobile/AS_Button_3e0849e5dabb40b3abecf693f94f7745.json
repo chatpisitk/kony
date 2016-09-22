@@ -1,0 +1,23 @@
+{
+    "AS_Button_3e0849e5dabb40b3abecf693f94f7745": {
+        "id": "AS_Button_3e0849e5dabb40b3abecf693f94f7745",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_a6492f78cf714247a9368f6648d77cdf",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "deleteItem",
+            "display": "deleteItem",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

@@ -52,7 +52,7 @@
     "isvisible": true,
     "kuid": "bfc88d9d3dfa4a94b43b7ee6c83974f9",
     "name": "kony.ui.Button",
-    "parent": "CopyFlexContainer02f75fc28eea24a",
+    "parent": "flxRowCart",
     "pf": "tmpRowCart",
     "wType": "Button",
     "zindex": 1

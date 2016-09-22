@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd2bfde90757450d96d9fe7ceed76f82",
-    "_text_": "STORE",
+    "_text_": "HOME",
     "_top_": {
         "type": "string",
         "value": "14dp"
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "CopylblStore048b8330674774f",
+    "id": "lblHome",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,9 +55,9 @@
         }
     },
     "isvisible": true,
-    "kuid": "96ad4d92ca1a4c59ba1be5258c176948",
+    "kuid": "7c56157fb85e4b2792b2b49d291070d9",
     "name": "kony.ui.Label",
-    "parent": "flxBtnTwo",
+    "parent": "flxBtnOne",
     "pf": "frmProductImage",
     "tooltip": "",
     "wType": "Label",

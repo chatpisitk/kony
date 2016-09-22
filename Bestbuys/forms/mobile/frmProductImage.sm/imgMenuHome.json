@@ -9,7 +9,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "25dp"
+        "value": "26dp"
     },
     "_margin_": [
         0,
@@ -24,10 +24,10 @@
         0
     ],
     "_skin_": "sb76bdef80cd44ab932ef2a61ef1944b",
-    "_src_": "appmenustore.png",
+    "_src_": "appmenuhome.png",
     "_top_": {
         "type": "string",
-        "value": "6dp"
+        "value": "4dp"
     },
     "_width_": {
         "type": "string",
@@ -42,13 +42,13 @@
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "CopyimgMenuStore059d8c5a94e4848",
+    "id": "imgMenuHome",
     "imagescalemode": 1,
     "info": null,
     "isvisible": true,
-    "kuid": "30a6b029b54a41a9bf3702543c088025",
+    "kuid": "5f452b4f709f43d1a3926646f4636cfc",
     "name": "kony.ui.Image2",
-    "parent": "flxBtnTwo",
+    "parent": "flxBtnOne",
     "pf": "frmProductImage",
     "srcType": 1,
     "wType": "Image",

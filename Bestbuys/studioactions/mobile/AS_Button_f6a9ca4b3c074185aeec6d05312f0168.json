@@ -10,8 +10,17 @@
         "actions": [{
             "id": "ADD_SNIPPET_ide_onClick_44a7987018a2447e90ae7ecc3eb27b7f",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "frmHome.destroy();\nfrmHome.show();",
+            "codeSnippet": "frmHome.destroy();\nfrmHome.show();\nfrmHome.flxMenu.isVisible = false",
             "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___973b013e9948444aafcc030e74547a37",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuToggle",
+            "display": "menuToggle",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
         }]
     }
 }

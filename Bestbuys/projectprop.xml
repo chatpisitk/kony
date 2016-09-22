@@ -14,7 +14,7 @@
     <attributes name="Home_or_Work_Networking" value="true"/>
     <attributes name="winenablecrashlogkey" value="false"/>
     <attributes name="wp8packagepublisheridkey" value="6a7f7067-9933-4505-bb2d-f77384159176"/>
-    <attributes name="andminsdkkey" value="5.0"/>
+    <attributes name="andminsdkkey" value="4.2"/>
     <attributes name="PERSISTENT_ACTIVITY" value="false"/>
     <attributes name="isA11yConfigEnabled" value="false"/>
     <attributes name="READ_SMS" value="false"/>
@@ -257,7 +257,7 @@
     <attributes name="win8publisherdisplaynamekey" value="KonyLabs"/>
     <attributes name="WP8_ID_CAP_CONTACTS" value="true"/>
     <attributes name="Location" value="true"/>
-    <attributes name="cloud_env_GUID" value="7e49467e-5b72-4c2b-98b8-93a778781823"/>
+    <attributes name="cloud_env_GUID" value="c88c32bb-13c7-4e3e-bb72-885690f27d88"/>
     <attributes name="wp10descriptionkey" value="Sample Test Application"/>
     <attributes name="manifest_tag_attrs" value=""/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
@@ -333,7 +333,7 @@
     <attributes name="log_level" value="ERROR"/>
     <attributes name="wp10removableStorage" value="false"/>
     <attributes name="tileUpdateRecurrenceKey" value=""/>
-    <attributes name="andtargetsdkkey" value="5.1"/>
+    <attributes name="andtargetsdkkey" value="6.0"/>
     <attributes name="deeplinkkey" value="None"/>
     <attributes name="READ_LOGS" value="false"/>
     <attributes name="apmgestureswipe" value="false"/>

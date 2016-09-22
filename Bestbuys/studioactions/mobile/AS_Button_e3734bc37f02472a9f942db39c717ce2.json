@@ -10,7 +10,7 @@
         "actions": [{
             "id": "ADD_SNIPPET_ide_onClick_26d8043b471b4dad85470aa038366f6f",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "frmHome.destroy();\nfrmHome.show();",
+            "codeSnippet": "frmHome.destroy();\nfrmHome.show();\nfrmProduct.flxMenu.isVisible = false",
             "callbackType": null
         }]
     }

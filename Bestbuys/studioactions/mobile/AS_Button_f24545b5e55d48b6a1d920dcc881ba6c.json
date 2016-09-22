@@ -17,6 +17,21 @@
             "parentId": "",
             "callbackType": null,
             "enableMappingEditor": true
+        }, {
+            "id": "ADD_SNIPPET__cc434f28075e45d4b8ca34f79b372ded",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmHome.flxMenu.isVisible = false",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___7367f7ae6bd8405d864ab2a7e65d66ca",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuToggle",
+            "display": "menuToggle",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
         }]
     }
 }

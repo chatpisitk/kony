@@ -38,11 +38,10 @@
     "context": {
         "channel": "mobile",
         "formID": "frmProductImage",
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "CopyimgMenuCart05b087a39fc0644",
+    "id": "imgMenuCart",
     "imagescalemode": 1,
     "info": null,
     "isvisible": true,

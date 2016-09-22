@@ -8,15 +8,11 @@
         }],
         "language": "js",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM__ide_onClick_80bf65bc4b374d76be393b29e48c187e",
-            "type": "NAVIGATE_TO_FORM",
-            "formId": "frmCart",
-            "formKUID": "90ecaf67da764bf7bae7331c1756bd56",
-            "mappings": {},
-            "mappingsOrder": [],
-            "parentId": "",
-            "callbackType": null,
-            "enableMappingEditor": true
+            "id": "ADD_SNIPPET__5ed0e524bac0422ebd6b2f1dac5cf390",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCart.destroy();\nfrmCart.show();\nfrmProductDetail.flxMenu.isVisible = false",
+            "parentId": null,
+            "callbackType": null
         }]
     }
 }

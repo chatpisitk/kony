@@ -36,9 +36,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "imgMenuCart",
-        "Line3",
         "btnCart",
+        "Line3",
+        "imgMenuCart",
         "lblCart"
     ],
     "clipbounds": true,

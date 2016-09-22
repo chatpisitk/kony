@@ -36,10 +36,10 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopybtnStore06a963db0302f48",
-        "CopyLine0de23077841dc47",
-        "CopyimgMenuStore059d8c5a94e4848",
-        "CopylblStore048b8330674774f"
+        "btnStore",
+        "Line0d",
+        "imgMenuStore",
+        "lblStore"
     ],
     "clipbounds": true,
     "containerweight": 100,

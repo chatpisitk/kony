@@ -169,7 +169,14 @@ function addCart(){
 function deleteItem(){
   var cartList = getCartItems();
   var selectedRow = frmCart.cartItems.selectedIndex[1];
+//   frmCart.cartItems.flxRowCart.animate(
+//   kony.ui.createAnimation({100:{"centerX":"-50%","stepConfig":{}}}),
+//     {delay:0.1,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:0.4},
+//     {animationEnd: function() {
+//     } 
+//     });
   cartItems.splice(selectedRow,1);
+//   frmCart.cartItems.removeAt(selectedRow,1);
   getCart();
   alert("delete item success");
 }

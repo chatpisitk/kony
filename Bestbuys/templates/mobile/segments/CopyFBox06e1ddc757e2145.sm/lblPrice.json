@@ -7,8 +7,8 @@
         "value": "preferred"
     },
     "_left_": {
-        "type": "string",
-        "value": "77dp"
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         1,
@@ -22,15 +22,11 @@
         0,
         0
     ],
-    "_skin_": "sd2bfde90757450d96d9fe7ceed76f82",
-    "_text_": "CART",
-    "_top_": {
-        "type": "string",
-        "value": "12dp"
-    },
+    "_skin_": "s2e58b0dcc6745d8826bb2e731fcc7bf",
+    "_text_": "$100",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "23%"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,9 +36,18 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "70%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "CopylblCart047a5dd49cd5a44",
+    "id": "lblPrice",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,12 +59,13 @@
             "wrapping": 2
         }
     },
+    "isSegmentChild": true,
     "isvisible": true,
-    "kuid": "1b1927de541e4767b176b9d54b976fe6",
+    "kuid": "a0f9b4e935064cc6940e444667088cee",
     "name": "kony.ui.Label",
-    "parent": "flxBtnThree",
-    "pf": "frmProductImage",
+    "parent": "flxRowCart",
+    "pf": "CopyFBox06e1ddc757e2145",
     "tooltip": "",
     "wType": "Label",
-    "zindex": 3
+    "zindex": 1
 }

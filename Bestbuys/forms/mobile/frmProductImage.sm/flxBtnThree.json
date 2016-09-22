@@ -36,10 +36,10 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopyimgMenuCart05b087a39fc0644",
-        "CopyLine07c03258f69a045",
-        "CopybtnCart0041c33aad4f648",
-        "CopylblCart047a5dd49cd5a44"
+        "imgMenuCart",
+        "Line0",
+        "btnCart",
+        "lblCart"
     ],
     "clipbounds": true,
     "containerweight": 100,

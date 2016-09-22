@@ -21,7 +21,7 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "CopyFlexContainer02f75fc28eea24a"
+        "flxRowCart"
     ],
     "containerId": true,
     "containerweight": 100,

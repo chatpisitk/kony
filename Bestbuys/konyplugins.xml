@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <plugins>
-    <pluginInfo version-no="7.1.1.GA_v201608091715" plugin-id="com.pat.tool.keditor" plugin-name="Kony Studio"/>
+    <pluginInfo version-no="7.1.1.GA_v201609161603_r1" plugin-id="com.pat.tool.keditor" plugin-name="Kony Studio"/>
     <pluginInfo version-no="7.1.1.GA_v201608091751" plugin-id="com.kony.thirdparty.jars" plugin-name="Third Party Jars Plug-in"/>
     <pluginInfo version-no="7.1.1.GA_v201608091751" plugin-id="com.pat.soapui" plugin-name="Soap UI Plugin"/>
     <pluginInfo version-no="7.1.1.GA_v201608091824" plugin-id="com.kony.codegen" plugin-name="Kony Codegenerator"/>
@@ -17,13 +17,13 @@
     <pluginInfo version-no="7.1.1.GA_v201608181942" plugin-id="com.kony.studio.viz.chrome.win64" plugin-name="StudioViz Chrome"/>
     <pluginInfo version-no="7.1.1.GA_v201608181942" plugin-id="com.kony.studio.viz.core.win64" plugin-name="StudioViz Core"/>
     <pluginInfo version-no="7.1.1.GA_v201608181942" plugin-id="com.kony.studio.viz.nodejs.win64" plugin-name="StudioViz NodeJS"/>
-    <pluginInfo version-no="7.1.1.GA_v201609061050_r1" plugin-id="com.pat.tabrcandroid" plugin-name="Tablet Android"/>
+    <pluginInfo version-no="7.1.1.GA_v201609151240_r2" plugin-id="com.pat.tabrcandroid" plugin-name="Tablet Android"/>
     <pluginInfo version-no="7.1.1.GA_v201608100004" plugin-id="com.kony.bb10" plugin-name="Kony Blackberry 10"/>
     <pluginInfo version-no="7.1.1.GA_v201608091902" plugin-id="com.kony.windowsphone8" plugin-name="Windows Phone 8 Plug-in"/>
     <pluginInfo version-no="7.1.1.GA_v201608091832" plugin-id="com.kony.windows8" plugin-name="Windows 8.1 Plug-in"/>
     <pluginInfo version-no="7.1.1.GA_v201608091930" plugin-id="com.kony.windows10" plugin-name="Windows 10 Plug-in"/>
-    <pluginInfo version-no="7.1.1.GA_v201609061050_r1" plugin-id="com.pat.android" plugin-name="Android"/>
-    <pluginInfo version-no="7.1.1.GA_v201609081048_r1" plugin-id="com.kony.windows" plugin-name="Windows Desktop Plug-in"/>
+    <pluginInfo version-no="7.1.1.GA_v201609151240_r2" plugin-id="com.pat.android" plugin-name="Android"/>
+    <pluginInfo version-no="7.1.1.GA_v201609161315_r2" plugin-id="com.kony.windows" plugin-name="Windows Desktop Plug-in"/>
     <pluginInfo version-no="7.1.1.GA_v201609091017_r1" plugin-id="com.kony.spa" plugin-name="SPA"/>
     <pluginInfo version-no="7.1.1.GA_v201608241958_r1" plugin-id="com.kony.desktopweb" plugin-name="Kony Desktop Web"/>
     <pluginInfo version-no="7.1.1.GA_v201608091852" plugin-id="com.kony.webcommons" plugin-name="Kony Web Commons"/>

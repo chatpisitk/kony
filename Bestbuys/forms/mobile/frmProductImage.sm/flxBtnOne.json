@@ -36,10 +36,10 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopybtnHome0bd0a56cd0f8743",
-        "CopyLine0209a0b3a3f694f",
-        "CopyimgMenuHome014f96276b6ce4d",
-        "CopylblHome0565aa5731ac442"
+        "btnHome",
+        "flxLine",
+        "imgMenuHome",
+        "lblHome"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__e47e7c4c487e4e44a42359b0980238f2",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "frmHome.lblBreadcrumbs.text = \"Home\";\nfrmHome.btnBack.isVisible = false;\nfrmHome.segList.isVisible = true;\nfrmHome.flxMenu.isVisible = false;\nfrmHome.destroy();\nfrmHome.show();",
+            "codeSnippet": "frmHome.lblBreadcrumbs.text = \"Home\";\nfrmHome.btnBack.isVisible = false;\nfrmHome.segList.isVisible = true;\nfrmHome.flxMenu.isVisible = false;\nfrmHome.destroy();\nfrmHome.show();\n\nif(typeof menuLeftPos==='undefined')\n\t\tmenuLeftPos=\"85%\";\n\telse if(menuLeftPos===\"85%\")\n\t\tmenuLeftPos=\"0%\";\n// \telse if(menuLeftPos===\"0%\")\n// \t\tmenuLeftPos=\"85%\";\n  kony.print(\"\\n--in menu toggle-->\"+menuLeftPos);\n  frmHome.flxMenu.isVisible = true;\n  frmHome.flxMain.animate(\n    kony.ui.createAnimation({100:{left:menuLeftPos,\"stepConfig\":{}}}),\n    {delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.40},\n    {animationEnd: function() {\n    } \n    });",
             "parentId": null,
             "callbackType": null
         }]

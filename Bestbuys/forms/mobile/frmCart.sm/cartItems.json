@@ -10,17 +10,17 @@
             },
             "lblName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "name"
             },
             "lblPrice": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "$100"
             }
         }
     ],
     "_height_": {
         "type": "string",
-        "value": "80.31%"
+        "value": "80%"
     },
     "_indicator_": "none",
     "_left_": {
@@ -87,10 +87,10 @@
     "parent": "flxMain",
     "pf": "frmCart",
     "retainselection": false,
-    "rowTemplateId": "54a4337742b145c0a9f0aee86867ff32",
+    "rowTemplateId": "c476b87ce5fb4a29ad982e076e1a0e77",
     "rowcounter": 0,
     "rowskin": "s6a7993516f34058b770e6a9521ca00f",
-    "rowtemplate": "CopyFlexContainer02f75fc28eea24a",
+    "rowtemplate": "CopyFBox06e1ddc757e2145",
     "screenlevelwidget": false,
     "seccounter": 0,
     "sectionHeaderTemplateId": null,
@@ -115,8 +115,8 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "CopyFlexContainer02f75fc28eea24a": "CopyFlexContainer02f75fc28eea24a",
         "btnDelete": "btnDelete",
+        "flxRowCart": "flxRowCart",
         "lblName": "lblName",
         "lblPrice": "lblPrice"
     }
