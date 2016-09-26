@@ -38,7 +38,8 @@
     "children": [
         "btnHamburger",
         "btnBack",
-        "imgLogo"
+        "imgLogo",
+        "btnHamburger2"
     ],
     "clipbounds": true,
     "containerweight": 100,

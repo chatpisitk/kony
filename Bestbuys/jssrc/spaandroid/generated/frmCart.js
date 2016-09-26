@@ -16,13 +16,13 @@ function addWidgetsfrmCart() {
     var flxHeader = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
-        "height": "580dp",
+        "height": "100%",
         "id": "flxHeader",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "0dp",
+        "left": 0,
         "skin": "CopyslFbox0ae3298fe7e3f43",
-        "top": "0dp",
+        "top": 0,
         "width": "100%",
         "zIndex": 3
     }, {}, {});
@@ -30,19 +30,19 @@ function addWidgetsfrmCart() {
     var flxbar = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
-        "height": "57dp",
+        "height": "10%",
         "id": "flxbar",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "0dp",
+        "left": 0,
         "skin": "CopyslFbox01cd7b62b08e44b",
-        "top": "0dp",
+        "top": 0,
         "width": "100%",
         "zIndex": 5
     }, {}, {});
     flxbar.setDefaultUnit(kony.flex.DP);
     var btnHamburger = new kony.ui.Button({
-        "centerX": "5%",
+        "centerX": "7%",
         "centerY": "50%",
         "height": "70%",
         "id": "btnHamburger",
@@ -57,7 +57,7 @@ function addWidgetsfrmCart() {
         "paddingInPixel": false
     }, {});
     var btnBack = new kony.ui.Button({
-        "centerX": "20%",
+        "centerX": "22%",
         "centerY": "50%",
         "height": "70%",
         "id": "btnBack",
@@ -91,9 +91,9 @@ function addWidgetsfrmCart() {
     var flxMenu = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
-        "height": "580dp",
+        "height": "100%",
         "id": "flxMenu",
-        "isVisible": true,
+        "isVisible": false,
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
         "skin": "CopyslFbox019c5e90c8b344a",
@@ -346,9 +346,9 @@ function addWidgetsfrmCart() {
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
         "skin": "CopyslFbox02be66182aab447",
-        "top": "53dp",
+        "top": "10%",
         "width": "100%",
-        "zIndex": 3
+        "zIndex": 4
     }, {}, {});
     lineHeader.setDefaultUnit(kony.flex.DP);
     lineHeader.add();
@@ -370,11 +370,11 @@ function addWidgetsfrmCart() {
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "data": [{
             "btnDelete": "",
-            "lblName": "",
-            "lblPrice": ""
+            "lblName": "name",
+            "lblPrice": "$100"
         }],
         "groupCells": false,
-        "height": "80.31%",
+        "height": "80%",
         "id": "cartItems",
         "isVisible": true,
         "left": "0dp",
@@ -384,7 +384,7 @@ function addWidgetsfrmCart() {
         "pageOnDotImage": "pageondot.png",
         "retainSelection": false,
         "rowSkin": "seg2Normal",
-        "rowTemplate": CopyFlexContainer02f75fc28eea24a,
+        "rowTemplate": CopyFBox06e1ddc757e2145,
         "scrollingEvents": {},
         "sectionHeaderSkin": "sliPhoneSegmentHeader",
         "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
@@ -395,8 +395,8 @@ function addWidgetsfrmCart() {
         "top": "0dp",
         "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
         "widgetDataMap": {
-            "CopyFlexContainer02f75fc28eea24a": "CopyFlexContainer02f75fc28eea24a",
             "btnDelete": "btnDelete",
+            "flxRowCart": "flxRowCart",
             "lblName": "lblName",
             "lblPrice": "lblPrice"
         },

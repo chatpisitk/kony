@@ -3,7 +3,7 @@ function addWidgetsfrmStoreLocation() {
     var flxFindStore = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
-        "height": "580dp",
+        "height": "100%",
         "id": "flxFindStore",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
@@ -42,14 +42,14 @@ function addWidgetsfrmStoreLocation() {
     }, {}, {});
     flxbar.setDefaultUnit(kony.flex.DP);
     var btnHamburger = new kony.ui.Button({
-        "centerX": "5%",
+        "centerX": "7%",
         "centerY": "50%",
-        "height": "40dp",
+        "height": "70%",
         "id": "btnHamburger",
         "isVisible": true,
         "onClick": AS_Button_4f428e6cd466443fb4591f379bb4dc69,
         "skin": "CopyslButtonGlossBlue0e53cc5d7d3314f",
-        "width": "40dp"
+        "width": "12%"
     }, {
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
@@ -57,7 +57,7 @@ function addWidgetsfrmStoreLocation() {
         "paddingInPixel": false
     }, {});
     var btnBack = new kony.ui.Button({
-        "centerX": "20%",
+        "centerX": "22%",
         "centerY": "50%",
         "height": "70%",
         "id": "btnBack",
@@ -93,7 +93,7 @@ function addWidgetsfrmStoreLocation() {
         "clipBounds": true,
         "height": "100%",
         "id": "flxMenu",
-        "isVisible": true,
+        "isVisible": false,
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
         "skin": "CopyslFbox019c5e90c8b344a",
@@ -133,28 +133,28 @@ function addWidgetsfrmStoreLocation() {
     }, {});
     var Line1 = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "centerX": "50%",
         "clipBounds": true,
-        "height": "3dp",
+        "height": "2dp",
         "id": "Line1",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "26dp",
         "skin": "CopyslFbox0fc472fdc537a4d",
-        "top": "47dp",
+        "top": "48dp",
         "width": "84.04%",
         "zIndex": 3
     }, {}, {});
     Line1.setDefaultUnit(kony.flex.DP);
     Line1.add();
     var imgMenuHome = new kony.ui.Image2({
-        "height": "37dp",
+        "centerX": "13%",
+        "centerY": "50%",
+        "height": "80%",
         "id": "imgMenuHome",
         "isVisible": true,
-        "left": "26dp",
         "skin": "slImage",
         "src": "appmenuhome.png",
-        "top": "4dp",
-        "width": "37dp",
+        "width": "13%",
         "zIndex": 2
     }, {
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
@@ -162,6 +162,7 @@ function addWidgetsfrmStoreLocation() {
         "paddingInPixel": false
     }, {});
     var lblHome = new kony.ui.Label({
+        "centerY": "50%",
         "id": "lblHome",
         "isVisible": true,
         "left": "77dp",
@@ -211,28 +212,29 @@ function addWidgetsfrmStoreLocation() {
     }, {});
     var Line2 = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "centerX": "50%",
+        "centerY": "98%",
         "clipBounds": true,
         "height": "3dp",
         "id": "Line2",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "25dp",
         "skin": "CopyslFbox0fc472fdc537a4d",
-        "top": "48dp",
         "width": "84.04%",
         "zIndex": 2
     }, {}, {});
     Line2.setDefaultUnit(kony.flex.DP);
     Line2.add();
     var imgMenuStore = new kony.ui.Image2({
-        "height": "37dp",
+        "centerX": "13%",
+        "centerY": "50%",
+        "height": "80%",
         "id": "imgMenuStore",
         "isVisible": true,
-        "left": "25dp",
+        "left": 25,
         "skin": "slImage",
         "src": "appmenustore.png",
-        "top": "6dp",
-        "width": "37dp",
+        "width": "13%",
         "zIndex": 2
     }, {
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
@@ -240,6 +242,7 @@ function addWidgetsfrmStoreLocation() {
         "paddingInPixel": false
     }, {});
     var lblStore = new kony.ui.Label({
+        "centerY": "50%",
         "id": "lblStore",
         "isVisible": true,
         "left": "77dp",
@@ -272,14 +275,14 @@ function addWidgetsfrmStoreLocation() {
     }, {}, {});
     flxBtnThree.setDefaultUnit(kony.flex.DP);
     var imgMenuCart = new kony.ui.Image2({
-        "height": "37dp",
+        "centerX": "13%",
+        "centerY": "50%",
+        "height": "80%",
         "id": "imgMenuCart",
         "isVisible": true,
-        "left": "24dp",
         "skin": "slImage",
         "src": "appmenucart.png",
-        "top": "3dp",
-        "width": "37dp",
+        "width": "13%",
         "zIndex": 2
     }, {
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
@@ -288,16 +291,16 @@ function addWidgetsfrmStoreLocation() {
     }, {});
     var Line3 = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "centerX": "50%",
+        "centerY": "97%",
         "clipBounds": true,
         "height": "3dp",
         "id": "Line3",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "24dp",
         "skin": "CopyslFbox0fc472fdc537a4d",
-        "top": "48dp",
         "width": "84.04%",
-        "zIndex": 2
+        "zIndex": 4
     }, {}, {});
     Line3.setDefaultUnit(kony.flex.DP);
     Line3.add();
@@ -318,6 +321,7 @@ function addWidgetsfrmStoreLocation() {
         "paddingInPixel": false
     }, {});
     var lblCart = new kony.ui.Label({
+        "centerY": "50%",
         "id": "lblCart",
         "isVisible": true,
         "left": "77dp",
@@ -339,14 +343,14 @@ function addWidgetsfrmStoreLocation() {
     flxHeader.add(flxbar, flxMenu);
     var lineHeader = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "centerY": "10%",
         "clipBounds": true,
         "height": "2dp",
         "id": "lineHeader",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "0dp",
+        "left": 0,
         "skin": "CopyslFbox02be66182aab447",
-        "top": "10%",
         "width": "100%",
         "zIndex": 4
     }, {}, {});

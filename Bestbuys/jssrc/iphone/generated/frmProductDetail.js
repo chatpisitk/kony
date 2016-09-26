@@ -1,10 +1,10 @@
 function addWidgetsfrmProductDetail() {
     frmProductDetail.setDefaultUnit(kony.flex.DP);
-    var FlexContainer040ca78b215b846 = new kony.ui.FlexContainer({
+    var flxProductDetail = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
         "height": "100%",
-        "id": "FlexContainer040ca78b215b846",
+        "id": "flxProductDetail",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
@@ -12,7 +12,7 @@ function addWidgetsfrmProductDetail() {
         "top": "0dp",
         "width": "100%"
     }, {}, {});
-    FlexContainer040ca78b215b846.setDefaultUnit(kony.flex.DP);
+    flxProductDetail.setDefaultUnit(kony.flex.DP);
     var flxHeader = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
@@ -34,9 +34,9 @@ function addWidgetsfrmProductDetail() {
         "id": "flxbar",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "0dp",
+        "left": 0,
         "skin": "CopyslFbox01cd7b62b08e44b",
-        "top": "0dp",
+        "top": 0,
         "width": "100%",
         "zIndex": 5
     }, {}, {});
@@ -97,7 +97,7 @@ function addWidgetsfrmProductDetail() {
         "clipBounds": true,
         "height": "99.78%",
         "id": "flxMenu",
-        "isVisible": true,
+        "isVisible": false,
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
         "skin": "CopyslFbox019c5e90c8b344a",
@@ -357,16 +357,15 @@ function addWidgetsfrmProductDetail() {
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
         "skin": "CopyslFbox02be66182aab447",
-        "top": "10%",
         "width": "100%",
-        "zIndex": 3
+        "zIndex": 4
     }, {}, {});
     lineHeader.setDefaultUnit(kony.flex.DP);
     lineHeader.add();
     var flxMain = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
-        "height": "91%",
+        "height": "90%",
         "id": "flxMain",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
@@ -551,7 +550,7 @@ function addWidgetsfrmProductDetail() {
     var segReview = new kony.ui.SegmentedUI2({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "centerX": "50%",
-        "centerY": "54%",
+        "centerY": "130%",
         "data": [{
             "imgRacting": "",
             "lblDetail": "",
@@ -561,7 +560,7 @@ function addWidgetsfrmProductDetail() {
         "groupCells": false,
         "height": "60%",
         "id": "segReview",
-        "isVisible": false,
+        "isVisible": true,
         "left": "13dp",
         "needPageIndicator": true,
         "pageOffDotImage": "pageoffdot.png",
@@ -618,8 +617,8 @@ function addWidgetsfrmProductDetail() {
     });
     flxReviewDetail.add(llblTotalText, lblTotal, btnHide, segReview, btnShow);
     flxMain.add(flxDetailProducts, flxLine, flxReviewDetail);
-    FlexContainer040ca78b215b846.add(flxHeader, lineHeader, flxMain);
-    frmProductDetail.add(FlexContainer040ca78b215b846);
+    flxProductDetail.add(flxHeader, lineHeader, flxMain);
+    frmProductDetail.add(flxProductDetail);
 };
 
 function frmProductDetailGlobals() {

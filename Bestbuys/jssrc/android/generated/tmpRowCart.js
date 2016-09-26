@@ -1,14 +1,14 @@
 function initializetmpRowCart() {
-    CopyFlexContainer02f75fc28eea24a = new kony.ui.FlexContainer({
+    flxRowCart = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
         "height": "100dp",
-        "id": "CopyFlexContainer02f75fc28eea24a",
+        "id": "flxRowCart",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
         "skin": "CopyslFbox09c5beba3d9b849"
     }, {}, {});
-    CopyFlexContainer02f75fc28eea24a.setDefaultUnit(kony.flex.DP);
+    flxRowCart.setDefaultUnit(kony.flex.DP);
     var lblName = new kony.ui.Label({
         "centerY": "50%",
         "height": "80%",
@@ -70,5 +70,5 @@ function initializetmpRowCart() {
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
-    CopyFlexContainer02f75fc28eea24a.add(lblName, lblPrice, btnDelete);
+    flxRowCart.add(lblName, lblPrice, btnDelete);
 }

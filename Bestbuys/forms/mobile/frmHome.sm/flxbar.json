@@ -40,9 +40,11 @@
         "value": "50%"
     },
     "children": [
+        "btnHamburger2",
         "btnHamburger",
         "btnBack",
         "imgLogo",
+        "btnSearch2",
         "btnSearch"
     ],
     "clipbounds": true,

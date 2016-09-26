@@ -42,7 +42,7 @@
     "context": {
         "channel": "mobile",
         "formID": "frmStoreLocation",
-        "platform": "iphone",
+        "platform": "spaan",
         "templateType": "forms",
         "topLevelBox": null
     },

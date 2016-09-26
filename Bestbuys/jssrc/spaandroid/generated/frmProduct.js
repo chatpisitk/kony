@@ -1,10 +1,10 @@
 function addWidgetsfrmProduct() {
     frmProduct.setDefaultUnit(kony.flex.DP);
-    var FlexContainer040ca78b215b846 = new kony.ui.FlexContainer({
+    var flxProduct = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
         "height": "580dp",
-        "id": "FlexContainer040ca78b215b846",
+        "id": "flxProduct",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
@@ -12,7 +12,7 @@ function addWidgetsfrmProduct() {
         "top": "0dp",
         "width": "100%"
     }, {}, {});
-    FlexContainer040ca78b215b846.setDefaultUnit(kony.flex.DP);
+    flxProduct.setDefaultUnit(kony.flex.DP);
     var flxHeader = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
@@ -93,7 +93,7 @@ function addWidgetsfrmProduct() {
         "clipBounds": true,
         "height": "570dp",
         "id": "flxMenu",
-        "isVisible": true,
+        "isVisible": false,
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
         "skin": "CopyslFbox019c5e90c8b344a",
@@ -481,8 +481,8 @@ function addWidgetsfrmProduct() {
         "textCopyable": false
     });
     flxMain.add(segList, lblResult, lblValue, listBoxPage, lblPage);
-    FlexContainer040ca78b215b846.add(flxHeader, lineHeader, flxMain);
-    frmProduct.add(FlexContainer040ca78b215b846);
+    flxProduct.add(flxHeader, lineHeader, flxMain);
+    frmProduct.add(flxProduct);
 };
 
 function frmProductGlobals() {

@@ -1,8 +1,20 @@
 //actions.js file 
 function AS_Button_098a04cd5254415d98da5153fb55512b(eventobject) {
     frmProductDetail.btnHide.isVisible = false;
+    // frmProductDetail.segReview.isVisible = false;
     frmProductDetail.btnShow.isVisible = true;
-    frmProductDetail.segReview.isVisible = false;
+    frmProductDetail.segReview.animate(kony.ui.createAnimation({
+        100: {
+            "centerY": "130%",
+            "stepConfig": {}
+        }
+    }), {
+        delay: 0.1,
+        fillMode: kony.anim.FILL_MODE_FORWARDS,
+        duration: .40
+    }, {
+        animationEnd: function() {}
+    });
 }
 
 function AS_Button_0a58e71e24bd43fe97f8ba205dadef73(eventobject) {
@@ -23,6 +35,26 @@ function AS_Button_0dd74ad6c3374658b91ca7dc19727743(eventobject) {
         frmHome.segList.isVisible = true
         frmStoreLocation.flxMain.isVisible = true
     }
+    if (frmHome.flxMenu.isVisible == true) {
+        if (typeof menuLeftPos === 'undefined') menuLeftPos = "85%";
+        else if (menuLeftPos === "85%") menuLeftPos = "0%";
+        // 	else if(menuLeftPos==="0%")
+        // 		menuLeftPos="85%";
+        kony.print("\n--in menu toggle-->" + menuLeftPos);
+        frmHome.flxMain.animate(kony.ui.createAnimation({
+            100: {
+                left: menuLeftPos,
+                "stepConfig": {}
+            }
+        }), {
+            delay: 0,
+            fillMode: kony.anim.FILL_MODE_FORWARDS,
+            duration: .40
+        }, {
+            animationEnd: function() {}
+        });
+        frmHome.flxMenu.isVisible = false
+    }
 }
 
 function AS_Button_0e6f858c333f420d9646f33e05f7c27f(eventobject) {
@@ -33,12 +65,33 @@ function AS_Button_17d5c6a659684557855ce1f78a4a2e75(eventobject) {
     frmHome.lblBreadcrumbs.text = "Home";
     frmHome.btnBack.isVisible = false;
     frmHome.segList.isVisible = true;
+    frmHome.flxMenu.isVisible = false;
     frmHome.destroy();
     frmHome.show();
+    if (typeof menuLeftPos === 'undefined') menuLeftPos = "85%";
+    else if (menuLeftPos === "85%") menuLeftPos = "0%";
+    // 	else if(menuLeftPos==="0%")
+    // 		menuLeftPos="85%";
+    kony.print("\n--in menu toggle-->" + menuLeftPos);
+    frmHome.flxMenu.isVisible = true;
+    frmHome.flxMain.animate(kony.ui.createAnimation({
+        100: {
+            left: menuLeftPos,
+            "stepConfig": {}
+        }
+    }), {
+        delay: 0,
+        fillMode: kony.anim.FILL_MODE_FORWARDS,
+        duration: .40
+    }, {
+        animationEnd: function() {}
+    });
 }
 
 function AS_Button_17e7c8baee994852ad84298b55786a7a(eventobject) {
     frmStoreLocation.show();
+    frmCart.flxMenu.isVisible = false
+    menuToggleCart.call(this);
 }
 
 function AS_Button_1c183a55237f47a899de357627289ffb(eventobject) {
@@ -47,6 +100,7 @@ function AS_Button_1c183a55237f47a899de357627289ffb(eventobject) {
 
 function AS_Button_1cdcb0591c2e4013a6fce23d34d81787(eventobject) {
     frmCart.show();
+    frmProductImage.flxMenu.isVisible = false
 }
 
 function AS_Button_1f5d981b7d27494eb4f316cc67cec263(eventobject) {
@@ -55,16 +109,31 @@ function AS_Button_1f5d981b7d27494eb4f316cc67cec263(eventobject) {
 
 function AS_Button_22c3a48fb12a4aedafa67cce9fbd8d44(eventobject) {
     frmCart.show();
+    frmProduct.flxMenu.isVisible = false
 }
 
 function AS_Button_23dba9ae9f9149ddbc22e9e31a923155(eventobject) {
     frmProductDetail.btnHide.isVisible = true;
+    // frmProductDetail.segReview.isVisible = true;
     frmProductDetail.btnShow.isVisible = false;
-    frmProductDetail.segReview.isVisible = true;
+    frmProductDetail.segReview.animate(kony.ui.createAnimation({
+        100: {
+            "centerY": "54%",
+            "stepConfig": {}
+        }
+    }), {
+        delay: 0.1,
+        fillMode: kony.anim.FILL_MODE_FORWARDS,
+        duration: .40
+    }, {
+        animationEnd: function() {}
+    });
 }
 
 function AS_Button_2ab4b4cc27324fe1b8b19fe345b2e743(eventobject) {
     frmCart.show();
+    frmStoreLocation.flxMenu.isVisible = false
+    menuToggleStore.call(this);
 }
 
 function AS_Button_2b92893dc52941c292855aebc74da19d(eventobject) {
@@ -86,10 +155,15 @@ function AS_Button_317b3ef31487473c9e3b1c654e2f2e05(eventobject) {
 function AS_Button_32471b44f26c4a9f9f167eaf37edb606(eventobject) {
     frmHome.destroy();
     frmHome.show();
+    frmProductImage.flxMenu.isVisible = false
 }
 
 function AS_Button_36ef82d6d3944a22ada9ffae49e43ce2(eventobject) {
     frmHome.flxPopupSearch.isVisible = false
+}
+
+function AS_Button_3e0849e5dabb40b3abecf693f94f7745(eventobject, context) {
+    return deleteItem.call(this);
 }
 
 function AS_Button_3eb2397ff915405482aa20c430b565ef(eventobject) {
@@ -98,11 +172,14 @@ function AS_Button_3eb2397ff915405482aa20c430b565ef(eventobject) {
 
 function AS_Button_3f8b1a4b9db24d59b109a9263ea00f76(eventobject) {
     frmStoreLocation.show();
+    frmProduct.flxMenu.isVisible = false
 }
 
 function AS_Button_404dd80bb6fe45daa53e18b302cd327e(eventobject) {
     frmHome.destroy();
     frmHome.show();
+    frmStoreLocation.flxMenu.isVisible = false
+    menuToggleStore.call(this);
 }
 
 function AS_Button_43a29817b564455992920a38eb743a24(eventobject) {
@@ -121,6 +198,7 @@ function AS_Button_4ade9fc9a809420a85b8798426fedc47(eventobject) {
 
 function AS_Button_4ae3d8baca644668a35e85aea1505dcc(eventobject) {
     frmStoreLocation.show();
+    frmProductSearch.flxMenu.isVisible = false
 }
 
 function AS_Button_4ed353e85ac14dd68c4353bc2094ec84(eventobject) {
@@ -143,6 +221,7 @@ function AS_Button_58e9fc71a21f4e5997f8d268259941fc(eventobject) {
 function AS_Button_5fae668439a5492d83ddebfa69afdcc4(eventobject) {
     frmHome.destroy();
     frmHome.show();
+    frmProductDetail.flxMenu.isVisible = false
 }
 
 function AS_Button_69c8cdc8147d4656bbd06b66f837ab2f(eventobject) {
@@ -151,6 +230,8 @@ function AS_Button_69c8cdc8147d4656bbd06b66f837ab2f(eventobject) {
 
 function AS_Button_74b4730342644775ab181c73b717591a(eventobject) {
     frmCart.show();
+    frmCart.flxMenu.isVisible = false
+    menuToggleCart.call(this);
 }
 
 function AS_Button_8400dfa307bd47f6bd4dc237fc67fafd(eventobject) {
@@ -180,11 +261,33 @@ function AS_Button_963bf940c8fb4322b7da3488f7dda323(eventobject) {
 
 function AS_Button_9b882dd213224e8d9ed374edcd6122a2(eventobject) {
     frmHome.show();
+    frmCart.flxMenu.isVisible = false;
     frmCart.destroy();
+    // if(typeof menuLeftPos==='undefined')
+    // 		menuLeftPos="85%";
+    // 	else if(menuLeftPos==="85%")
+    // 		menuLeftPos="0%";
+    // 	else if(menuLeftPos==="0%")
+    menuLeftPos = "85%";
+    kony.print("\n--in menu toggle-->" + menuLeftPos);
+    frmCart.flxMenu.isVisible = true;
+    frmCart.flxMain.animate(kony.ui.createAnimation({
+        100: {
+            left: menuLeftPos,
+            "stepConfig": {}
+        }
+    }), {
+        delay: 0,
+        fillMode: kony.anim.FILL_MODE_FORWARDS,
+        duration: .40
+    }, {
+        animationEnd: function() {}
+    });
 }
 
 function AS_Button_a6750738f7c34a98ac77fd85a23a1f8b(eventobject) {
     frmProductDetail.show();
+    frmProductImage.flxMenu.isVisible = false;
     frmProductImage.destroy();
 }
 
@@ -195,11 +298,24 @@ function AS_Button_a71f1b9a610c471ea2f50d2edcf5f77f(eventobject) {
 }
 
 function AS_Button_acae2bb5033448f284ba11158b2169de(eventobject, context) {
-    return deleteItem.call(this);
+    flxRowCart.animate(kony.ui.createAnimation({
+        100: {
+            "centerX": "-50%",
+            "stepConfig": {}
+        }
+    }), {
+        delay: 0.1,
+        fillMode: kony.anim.FILL_MODE_FORWARDS,
+        duration: .40
+    }, {
+        animationEnd: function() {}
+    });
+    deleteItem.call(this);
 }
 
 function AS_Button_c005e7af8ff24389a9b48173359bf693(eventobject) {
     frmCart.show();
+    frmProductSearch.flxMenu.isVisible = false
 }
 
 function AS_Button_c2edaf24c9b1454a971de8274ca863a6(eventobject) {
@@ -241,14 +357,18 @@ function AS_Button_e1500e5336724f20b3d75317a2fdab06(eventobject) {
 function AS_Button_e3734bc37f02472a9f942db39c717ce2(eventobject) {
     frmHome.destroy();
     frmHome.show();
+    frmProduct.flxMenu.isVisible = false
 }
 
 function AS_Button_e510b794864b43639bf9f5e7996f6a3f(eventobject) {
     frmStoreLocation.show();
+    frmStoreLocation.flxMenu.isVisible = false
+    menuToggleStore.call(this);
 }
 
 function AS_Button_e67b530ad98b4f61ab1885d86ba61402(eventobject) {
     frmStoreLocation.show();
+    frmProductDetail.flxMenu.isVisible = false
 }
 
 function AS_Button_eceb85e775cf41e596b5612231993cf9(eventobject, context) {
@@ -265,19 +385,26 @@ function AS_Button_f0e90b3d8ec14102bd8d497020970fe1(eventobject) {
 
 function AS_Button_f24545b5e55d48b6a1d920dcc881ba6c(eventobject) {
     frmCart.show();
+    frmHome.flxMenu.isVisible = false
+    menuToggle.call(this);
 }
 
 function AS_Button_f5aa5f697348490cbcaa8b3a8e25f77c(eventobject) {
+    frmCart.destroy();
     frmCart.show();
+    frmProductDetail.flxMenu.isVisible = false
 }
 
 function AS_Button_f6789bbf4ced4c4389ac0c7c3b57f750(eventobject) {
     frmStoreLocation.show();
+    frmProductImage.flxMenu.isVisible = false
 }
 
 function AS_Button_f6a9ca4b3c074185aeec6d05312f0168(eventobject) {
     frmHome.destroy();
     frmHome.show();
+    frmHome.flxMenu.isVisible = false
+    menuToggle.call(this);
 }
 
 function AS_Button_f6dec3f98c754c5ea1f598051c70265e(eventobject) {
@@ -286,6 +413,8 @@ function AS_Button_f6dec3f98c754c5ea1f598051c70265e(eventobject) {
 
 function AS_Button_f757f413615e4cb2be7e12f365796732(eventobject) {
     frmStoreLocation.show();
+    frmHome.flxMenu.isVisible = false
+    menuToggle.call(this);
 }
 
 function AS_Button_f79839156a8143b5a18a672daeeb512f(eventobject) {
@@ -303,11 +432,14 @@ function AS_Button_fc7206b9684b41889f1d3db5f02a62da(eventobject) {
 function AS_Button_ffbbb223b07a4f03a839ad0ee9660fad(eventobject) {
     frmHome.destroy();
     frmHome.show();
+    frmProductSearch.flxMenu.isVisible = false
 }
 
 function AS_Button_ffd7c1b7f6de4d2088edd4bd4e56bce4(eventobject) {
     frmHome.destroy();
     frmHome.show();
+    frmCart.flxMenu.isVisible = false
+    menuToggleCart.call(this);
 }
 
 function AS_FlexContainer_78d8c16687004531b82d520274f9f4ad(eventobject, context) {

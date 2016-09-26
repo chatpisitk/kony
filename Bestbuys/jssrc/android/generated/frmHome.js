@@ -3,13 +3,13 @@ function addWidgetsfrmHome() {
     var flxHome = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
-        "height": "575dp",
+        "height": "100%",
         "id": "flxHome",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "0dp",
+        "left": 0,
         "skin": "CopyslFbox0a626e892eda840",
-        "top": "0dp",
+        "top": 0,
         "width": "100%"
     }, {}, {});
     flxHome.setDefaultUnit(kony.flex.DP);
@@ -20,11 +20,11 @@ function addWidgetsfrmHome() {
         "id": "flxHeader",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "0dp",
+        "left": 0,
         "skin": "CopyslFbox0ae3298fe7e3f43",
-        "top": "0dp",
+        "top": 0,
         "width": "100%",
-        "zIndex": 1
+        "zIndex": 3
     }, {}, {});
     flxHeader.setDefaultUnit(kony.flex.DP);
     var flxbar = new kony.ui.FlexContainer({
@@ -42,8 +42,23 @@ function addWidgetsfrmHome() {
         "zIndex": 6
     }, {}, {});
     flxbar.setDefaultUnit(kony.flex.DP);
+    var btnHamburger2 = new kony.ui.Image2({
+        "centerX": "7%",
+        "centerY": "50%",
+        "height": "70%",
+        "id": "btnHamburger2",
+        "isVisible": true,
+        "skin": "slImage",
+        "src": "humburger.png",
+        "width": "12%",
+        "zIndex": 3
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
     var btnHamburger = new kony.ui.Button({
-        "centerX": "5%",
+        "centerX": "7%",
         "centerY": "50%",
         "height": "70%",
         "id": "btnHamburger",
@@ -58,7 +73,7 @@ function addWidgetsfrmHome() {
         "paddingInPixel": false
     }, {});
     var btnBack = new kony.ui.Button({
-        "centerX": "20%",
+        "centerX": "22%",
         "centerY": "50%",
         "height": "70%",
         "id": "btnBack",
@@ -88,6 +103,21 @@ function addWidgetsfrmHome() {
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
+    var btnSearch2 = new kony.ui.Image2({
+        "centerX": "90%",
+        "centerY": "50%",
+        "height": "70%",
+        "id": "btnSearch2",
+        "isVisible": true,
+        "skin": "slImage",
+        "src": "search.png",
+        "width": "12%",
+        "zIndex": 2
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
     var btnSearch = new kony.ui.Button({
         "centerX": "90%",
         "centerY": "50%",
@@ -104,13 +134,13 @@ function addWidgetsfrmHome() {
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
-    flxbar.add(btnHamburger, btnBack, imgLogo, btnSearch);
+    flxbar.add(btnHamburger2, btnHamburger, btnBack, imgLogo, btnSearch2, btnSearch);
     var flxMenu = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
         "height": "100%",
         "id": "flxMenu",
-        "isVisible": true,
+        "isVisible": false,
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
         "skin": "CopyslFbox019c5e90c8b344a",
@@ -365,14 +395,14 @@ function addWidgetsfrmHome() {
     flxHeader.add(flxbar, flxMenu);
     var lineHeader = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "centerY": "10%",
         "clipBounds": true,
         "height": "2dp",
         "id": "lineHeader",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "0dp",
+        "left": 0,
         "skin": "CopyslFbox02be66182aab447",
-        "top": "10%",
         "width": "100%",
         "zIndex": 4
     }, {}, {});

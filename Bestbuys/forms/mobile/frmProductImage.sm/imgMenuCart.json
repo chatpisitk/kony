@@ -38,6 +38,7 @@
     "context": {
         "channel": "mobile",
         "formID": "frmProductImage",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },

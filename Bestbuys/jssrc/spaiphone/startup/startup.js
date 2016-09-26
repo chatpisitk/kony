@@ -7,30 +7,30 @@ var appConfig = {
     serverIp: "192.168.108.2",
     serverPort: "80",
     secureServerPort: "443",
-    isturlbase: "http://192.168.28.153:8081/services",
+    isturlbase: "http://192.168.30.84:8081/services",
     isMFApp: true,
-    appKey: "e10ccdd2dd2787062e01a8c71dc513df",
-    appSecret: "f6977bf50ede7e95e56f2f0812402a8f",
-    serviceUrl: "http://192.168.28.153:8081/authService/100000002/appconfig",
+    appKey: "6e4b97d191ca255ebcc267cad1e57c53",
+    appSecret: "e024ede6240dc0b79295a642ae724f43",
+    serviceUrl: "http://192.168.30.84:8081/authService/100000002/appconfig",
     svcDoc: {
-        "appId": "bf94ee79-fa39-462d-843b-f22dd478d133",
-        "baseId": "0eb133c0-45b7-4059-907a-ccba4396530e",
+        "appId": "dff18a12-02a5-456f-a9c5-51c40447aad2",
+        "baseId": "8b134f75-9f68-4cb7-be44-421169c0c39e",
         "name": "BestBuy",
-        "selflink": "http://192.168.28.153:8081/authService/100000002/appconfig",
+        "selflink": "http://192.168.30.84:8081/authService/100000002/appconfig",
         "integsvc": {
-            "BestBuyService": "http://192.168.28.153:8081/services/BestBuyService"
+            "BestBuyService": "http://192.168.30.84:8081/services/BestBuyService"
         },
         "reportingsvc": {
-            "custom": "http://192.168.28.153:8081/services/CMS",
-            "session": "http://192.168.28.153:8081/services/IST"
+            "custom": "http://192.168.30.84:8081/services/CMS",
+            "session": "http://192.168.30.84:8081/services/IST"
         },
         "Webapp": {
-            "url": "http://192.168.28.153:8081/Bestbuys"
+            "url": "http://192.168.30.84:8081/Bestbuys"
         },
         "services_meta": {
             "BestBuyService": {
                 "version": "1.0",
-                "url": "http://192.168.28.153:8081/services/BestBuyService",
+                "url": "http://192.168.30.84:8081/services/BestBuyService",
                 "type": "integsvc"
             }
         }
@@ -38,8 +38,8 @@ var appConfig = {
     svcDocRefresh: false,
     svcDocRefreshTimeSecs: -1,
     eventTypes: ["FormEntry", "ServiceRequest", "Error", "Crash"],
-    url: "http://192.168.28.153:8081/Bestbuys/MWServlet",
-    secureurl: "http://192.168.28.153:8081/Bestbuys/MWServlet",
+    url: "http://192.168.30.84:8081/Bestbuys/MWServlet",
+    secureurl: "http://192.168.30.84:8081/Bestbuys/MWServlet",
     middlewareContext: "Bestbuys"
 };
 sessionID = "";

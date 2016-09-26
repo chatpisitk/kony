@@ -37,7 +37,7 @@
     "context": {
         "channel": "mobile",
         "formID": "frmProduct",
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },

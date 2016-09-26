@@ -1,10 +1,10 @@
 function addWidgetsfrmProductSearch() {
     frmProductSearch.setDefaultUnit(kony.flex.DP);
-    var FlexContainer040ca78b215b846 = new kony.ui.FlexContainer({
+    var flxProductSearch = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
         "height": "580dp",
-        "id": "FlexContainer040ca78b215b846",
+        "id": "flxProductSearch",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
@@ -12,7 +12,7 @@ function addWidgetsfrmProductSearch() {
         "top": "0dp",
         "width": "100%"
     }, {}, {});
-    FlexContainer040ca78b215b846.setDefaultUnit(kony.flex.DP);
+    flxProductSearch.setDefaultUnit(kony.flex.DP);
     var flxHeader = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
@@ -42,7 +42,7 @@ function addWidgetsfrmProductSearch() {
     }, {}, {});
     flxbar.setDefaultUnit(kony.flex.DP);
     var btnHamburger = new kony.ui.Button({
-        "centerX": "5%",
+        "centerX": "7%",
         "centerY": "50%",
         "height": "70%",
         "id": "btnHamburger",
@@ -57,7 +57,7 @@ function addWidgetsfrmProductSearch() {
         "paddingInPixel": false
     }, {});
     var btnBack = new kony.ui.Button({
-        "centerX": "20%",
+        "centerX": "22%",
         "centerY": "50%",
         "height": "70%",
         "id": "btnBack",
@@ -93,7 +93,7 @@ function addWidgetsfrmProductSearch() {
         "clipBounds": true,
         "height": "100%",
         "id": "flxMenu",
-        "isVisible": true,
+        "isVisible": false,
         "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
         "skin": "CopyslFbox019c5e90c8b344a",
@@ -117,14 +117,14 @@ function addWidgetsfrmProductSearch() {
     }, {}, {});
     flxBtnOne.setDefaultUnit(kony.flex.DP);
     var btnHome = new kony.ui.Button({
-        "height": "50dp",
+        "height": "100%",
         "id": "btnHome",
         "isVisible": true,
-        "left": "1dp",
+        "left": 0,
         "onClick": AS_Button_ffbbb223b07a4f03a839ad0ee9660fad,
         "skin": "CopyslButtonGlossBlue0085c82aefee64a",
-        "top": "-1dp",
-        "width": "315dp"
+        "top": 0,
+        "width": "100%"
     }, {
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
@@ -133,28 +133,30 @@ function addWidgetsfrmProductSearch() {
     }, {});
     var Line1 = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "centerX": "50%",
+        "centerY": "94%",
         "clipBounds": true,
         "height": "3dp",
         "id": "Line1",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "26dp",
+        "left": 0,
         "skin": "CopyslFbox0fc472fdc537a4d",
-        "top": "47dp",
+        "top": 0,
         "width": "84.04%",
         "zIndex": 3
     }, {}, {});
     Line1.setDefaultUnit(kony.flex.DP);
     Line1.add();
     var imgMenuHome = new kony.ui.Image2({
-        "height": "37dp",
+        "centerX": "13%",
+        "centerY": "50%",
+        "height": "80%",
         "id": "imgMenuHome",
         "isVisible": true,
-        "left": "26dp",
         "skin": "slImage",
         "src": "appmenuhome.png",
-        "top": "4dp",
-        "width": "37dp",
+        "width": "13%",
         "zIndex": 2
     }, {
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
@@ -162,12 +164,12 @@ function addWidgetsfrmProductSearch() {
         "paddingInPixel": false
     }, {});
     var lblHome = new kony.ui.Label({
+        "centerY": "50%",
         "id": "lblHome",
         "isVisible": true,
         "left": "77dp",
         "skin": "CopyslLabel00f0a982c5c9b48",
         "text": "HOME",
-        "top": "14dp",
         "width": kony.flex.USE_PREFFERED_SIZE,
         "zIndex": 3
     }, {
@@ -194,14 +196,14 @@ function addWidgetsfrmProductSearch() {
     }, {}, {});
     flxBtnTwo.setDefaultUnit(kony.flex.DP);
     var btnStore = new kony.ui.Button({
-        "height": "50dp",
+        "height": "100%",
         "id": "btnStore",
         "isVisible": true,
         "left": "0dp",
         "onClick": AS_Button_4ae3d8baca644668a35e85aea1505dcc,
         "skin": "CopyslButtonGlossBlue0f7e3daa0b7ee49",
         "top": "0dp",
-        "width": "315dp",
+        "width": "100%",
         "zIndex": 1
     }, {
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
@@ -211,12 +213,12 @@ function addWidgetsfrmProductSearch() {
     }, {});
     var Line2 = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "centerX": "50%",
         "clipBounds": true,
         "height": "3dp",
         "id": "Line2",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
-        "left": "25dp",
         "skin": "CopyslFbox0fc472fdc537a4d",
         "top": "48dp",
         "width": "84.04%",
@@ -225,14 +227,15 @@ function addWidgetsfrmProductSearch() {
     Line2.setDefaultUnit(kony.flex.DP);
     Line2.add();
     var imgMenuStore = new kony.ui.Image2({
-        "height": "37dp",
+        "centerX": "13%",
+        "height": "80%",
         "id": "imgMenuStore",
         "isVisible": true,
-        "left": "25dp",
+        "maxHeight": "50%",
         "skin": "slImage",
         "src": "appmenustore.png",
-        "top": "6dp",
-        "width": "37dp",
+        "top": 0,
+        "width": "13%",
         "zIndex": 2
     }, {
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
@@ -240,12 +243,12 @@ function addWidgetsfrmProductSearch() {
         "paddingInPixel": false
     }, {});
     var lblStore = new kony.ui.Label({
+        "centerY": "50%",
         "id": "lblStore",
         "isVisible": true,
         "left": "77dp",
         "skin": "CopyslLabel00f0a982c5c9b48",
         "text": "STORE",
-        "top": "14dp",
         "width": kony.flex.USE_PREFFERED_SIZE,
         "zIndex": 3
     }, {
@@ -271,45 +274,15 @@ function addWidgetsfrmProductSearch() {
         "zIndex": 2
     }, {}, {});
     flxBtnThree.setDefaultUnit(kony.flex.DP);
-    var imgMenuCart = new kony.ui.Image2({
-        "height": "37dp",
-        "id": "imgMenuCart",
-        "isVisible": true,
-        "left": "24dp",
-        "skin": "slImage",
-        "src": "appmenucart.png",
-        "top": "3dp",
-        "width": "37dp",
-        "zIndex": 2
-    }, {
-        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
-        "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
-    }, {});
-    var Line3 = new kony.ui.FlexContainer({
-        "autogrowMode": kony.flex.AUTOGROW_NONE,
-        "clipBounds": true,
-        "height": "3dp",
-        "id": "Line3",
-        "isVisible": true,
-        "layoutType": kony.flex.FREE_FORM,
-        "left": "24dp",
-        "skin": "CopyslFbox0fc472fdc537a4d",
-        "top": "48dp",
-        "width": "84.04%",
-        "zIndex": 2
-    }, {}, {});
-    Line3.setDefaultUnit(kony.flex.DP);
-    Line3.add();
     var btnCart = new kony.ui.Button({
-        "height": "50dp",
+        "height": "100%",
         "id": "btnCart",
         "isVisible": true,
         "left": "0dp",
         "onClick": AS_Button_c005e7af8ff24389a9b48173359bf693,
         "skin": "CopyslButtonGlossBlue0562c61fb224646",
         "top": "0dp",
-        "width": "315dp",
+        "width": "100%",
         "zIndex": 1
     }, {
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
@@ -317,13 +290,43 @@ function addWidgetsfrmProductSearch() {
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
+    var Line3 = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "centerX": "50%",
+        "clipBounds": true,
+        "height": "3dp",
+        "id": "Line3",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "skin": "CopyslFbox0fc472fdc537a4d",
+        "top": "48dp",
+        "width": "84.04%",
+        "zIndex": 2
+    }, {}, {});
+    Line3.setDefaultUnit(kony.flex.DP);
+    Line3.add();
+    var imgMenuCart = new kony.ui.Image2({
+        "centerX": "13%",
+        "centerY": "50%",
+        "height": "80%",
+        "id": "imgMenuCart",
+        "isVisible": true,
+        "skin": "slImage",
+        "src": "appmenucart.png",
+        "width": "13%",
+        "zIndex": 2
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
     var lblCart = new kony.ui.Label({
+        "centerY": "50%",
         "id": "lblCart",
         "isVisible": true,
         "left": "77dp",
         "skin": "CopyslLabel00f0a982c5c9b48",
         "text": "CART",
-        "top": "12dp",
         "width": kony.flex.USE_PREFFERED_SIZE,
         "zIndex": 3
     }, {
@@ -334,7 +337,7 @@ function addWidgetsfrmProductSearch() {
         "renderAsAnchor": false,
         "textCopyable": false
     });
-    flxBtnThree.add(imgMenuCart, Line3, btnCart, lblCart);
+    flxBtnThree.add(btnCart, Line3, imgMenuCart, lblCart);
     flxMenu.add(flxBtnOne, flxBtnTwo, flxBtnThree);
     flxHeader.add(flxbar, flxMenu);
     var lineHeader = new kony.ui.FlexContainer({
@@ -432,8 +435,8 @@ function addWidgetsfrmProductSearch() {
         "paddingInPixel": false
     }, {});
     flxMain.add(lblResult, lblValue, lblPage, ListBoxPage);
-    FlexContainer040ca78b215b846.add(flxHeader, lineHeader, flxMain);
-    frmProductSearch.add(FlexContainer040ca78b215b846);
+    flxProductSearch.add(flxHeader, lineHeader, flxMain);
+    frmProductSearch.add(flxProductSearch);
 };
 
 function frmProductSearchGlobals() {

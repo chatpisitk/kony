@@ -57,6 +57,7 @@ function setArrayPic(pic){
 
 function selectProduct(){
   setProductID(frmProduct.segList.selectedRowItems[0].lblSku.text);
+  frmProductDetail.destroy();
   frmProductDetail.show();
 }
 

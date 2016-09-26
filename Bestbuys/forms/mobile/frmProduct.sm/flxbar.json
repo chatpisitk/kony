@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "57dp"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
@@ -36,6 +36,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
+        "btnHamburger2",
         "btnHamburger",
         "btnBack",
         "imgLogo"
